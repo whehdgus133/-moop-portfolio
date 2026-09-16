@@ -4,29 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <meta name="description" content="The moop studio. — 브랜드를 위한 상업 사진과 영상. Portrait · Product · Event">
   <title>The moop studio.</title>
+  <script type="module" src="js/home.js"></script>
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <a class="skip-link" href="#work">작업 목록으로 이동</a>
 
   <!-- HEADER -->
   <header class="header">
 
-    <nav class="nav-left">
+    <nav class="nav-left" aria-label="주 메뉴">
       <a href="#work">WORK</a>
       <a href="#about">ABOUT</a>
-      <a href="#contact">CONTACT</a>
+      <a href="contact.html">CONTACT</a>
     </nav>
 
-    <a href="/" class="logo">
+    <a href="./" class="logo">
       The moop studio.
     </a>
 
-    <nav class="nav-right">
-      <a href="/" class="active">PHOTO</a>
-      <a href="#">FILM</a>
+    <nav class="nav-right" aria-label="작업 유형">
+      <a href="./" class="active">PHOTO</a>
+      <span class="unavailable" data-site-link="film" aria-disabled="true">FILM</span>
     </nav>
 
   </header>
@@ -55,69 +58,19 @@
 
       </div>
 
-     <div class="hero-image">
-  <img src="images/hero.jpg" alt="The moop studio photography">
+     <div class="hero-image" data-hero>
+  <img src="images/hero/hero-preview.webp" srcset="images/hero/hero-thumb.webp 640w, images/hero/hero-preview.webp 1600w, images/hero/hero-full.webp 2800w" sizes="(max-width: 700px) 100vw, 68vw" width="1600" height="1067" fetchpriority="high" alt="안경을 쓴 인물의 스튜디오 초상 사진">
 </div>
 
     </section>
 
 
-    <!-- WORK -->
-    <section class="work" id="work">
-
-      <a href="#" class="category">
-
-        <div class="category-image placeholder">
-          <span>PORTRAIT PHOTO</span>
-        </div>
-
-        <div class="category-info">
-          <div>
-            <h2>PORTRAIT</h2>
-            <p>인물 · 프로필 · 인터뷰</p>
-          </div>
-
-          <span>01 →</span>
-        </div>
-
-      </a>
-
-
-      <a href="#" class="category">
-
-        <div class="category-image placeholder">
-          <span>PRODUCT PHOTO</span>
-        </div>
-
-        <div class="category-info">
-          <div>
-            <h2>PRODUCT</h2>
-            <p>제품 · 브랜드 이미지</p>
-          </div>
-
-          <span>02 →</span>
-        </div>
-
-      </a>
-
-
-      <a href="#" class="category">
-
-        <div class="category-image placeholder">
-          <span>EVENT PHOTO</span>
-        </div>
-
-        <div class="category-info">
-          <div>
-            <h2>EVENT</h2>
-            <p>기업 · 행사 · 현장</p>
-          </div>
-
-          <span>03 →</span>
-        </div>
-
-      </a>
-
+    <!-- Category covers are managed in data/projects.json. -->
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="work-heading"><h2 id="work-title">WORK</h2></div>
+      <div id="category-grid" class="category-grid"></div>
+      <p id="work-status" class="empty-copy" role="status">작업 분야를 불러오는 중…</p>
+      <noscript><p>작업 목록을 보려면 브라우저의 JavaScript를 켜 주세요.</p></noscript>
     </section>
 
 
@@ -126,7 +79,7 @@
 
       <div class="about" id="about">
 
-        <div class="about-photo placeholder">
+        <div class="about-photo placeholder" data-about-photo>
           <span>YOUR PHOTO</span>
         </div>
 
@@ -157,9 +110,7 @@
 
         <h2>작업 문의</h2>
 
-        <a href="mailto:YOUR_EMAIL@example.com">
-          CONTACT →
-        </a>
+        <a href="contact.html">CONTACT →</a>
 
       </div>
 
@@ -174,9 +125,9 @@
     <strong>The moop studio.</strong>
 
     <div>
-      <a href="#">Instagram</a>
-      <a href="#">Email</a>
-      <a href="#">YouTube</a>
+      <span class="unavailable" data-site-link="instagram" aria-disabled="true">Instagram</span>
+      <span class="unavailable" data-site-link="email" aria-disabled="true">Email</span>
+      <span class="unavailable" data-site-link="youtube" aria-disabled="true">YouTube</span>
     </div>
 
   </footer>

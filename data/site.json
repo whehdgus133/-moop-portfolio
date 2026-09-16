@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "hero": {
+    "id": "hero",
+    "alt": "안경을 쓴 인물의 스튜디오 초상 사진",
+    "caption": "",
+    "order": 0,
+    "width": 7008,
+    "height": 4672,
+    "src": "images/hero/hero-preview.webp",
+    "thumbnail": "images/hero/hero-thumb.webp",
+    "full": "images/hero/hero-full.webp",
+    "sources": [
+      {
+        "src": "images/hero/hero-thumb.webp",
+        "width": 640
+      },
+      {
+        "src": "images/hero/hero-preview.webp",
+        "width": 1600
+      },
+      {
+        "src": "images/hero/hero-full.webp",
+        "width": 2800
+      }
+    ],
+    "source": {
+      "filename": "hero.jpg",
+      "sha256": "fa5be38bddde2fd1565765822f9504894dd4a736a82765498801a63da5bdbf19"
+    }
+  },
+  "aboutPhoto": null,
+  "links": {
+    "email": "moopstudio@naver.com",
+    "instagram": "",
+    "youtube": "",
+    "film": ""
+  },
+  "contact": {
+    "phone": "010-9006-1382",
+    "formEndpoint": ""
+  }
+}

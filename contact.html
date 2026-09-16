@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The moop studio. — Contact">
+  <title>Contact — The moop studio.</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="js/contact.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">본문으로 이동</a>
+  <header class="header">
+    <nav class="nav-left" aria-label="주 메뉴">
+      <a href="./#work">WORK</a><a href="./#about">ABOUT</a><a href="contact.html">CONTACT</a>
+    </nav>
+    <a href="./" class="logo">The moop studio.</a>
+    <nav class="nav-right" aria-label="작업 유형">
+      <a href="./#work" class="active">PHOTO</a>
+      <span class="unavailable" data-site-link="film" aria-disabled="true">FILM</span>
+    </nav>
+  </header>
+  <main id="main-content" class="contact-main">
+    <a href="./" class="back-link">← HOME</a>
+    <div class="contact-layout">
+      <section class="contact-intro" aria-labelledby="contact-title">
+        <span class="section-label">CONTACT</span>
+        <h1 id="contact-title">함께 만들<br>다음 장면.</h1>
+        <p class="contact-lead">사진과 영상 작업에 대해 이야기해 주세요.<br>프로젝트의 방향과 일정을 함께 살펴보겠습니다.</p>
+        <dl class="contact-details">
+          <div><dt>PHONE</dt><dd id="contact-phone">준비 중</dd></div>
+          <div><dt>EMAIL</dt><dd id="contact-email">준비 중</dd></div>
+        </dl>
+        <div class="contact-socials">
+          <span class="unavailable" data-site-link="instagram" aria-disabled="true">Instagram</span>
+          <span class="unavailable" data-site-link="youtube" aria-disabled="true">YouTube</span>
+        </div>
+      </section>
+      <section class="inquiry" aria-labelledby="inquiry-title">
+        <h2 id="inquiry-title">프로젝트 문의</h2>
+        <p id="form-availability" class="form-note">현재 온라인 문의 전송을 준비하고 있습니다.</p>
+        <form id="contact-form" aria-describedby="form-availability" method="post">
+          <div class="form-row">
+            <label>이름 (필수)<input name="name" autocomplete="name" required maxlength="100"></label>
+            <label>회사 / 브랜드<input name="company" autocomplete="organization" maxlength="150"></label>
+          </div>
+          <label>회신 이메일 (필수)<input name="email" type="email" autocomplete="email" required maxlength="254"></label>
+          <div class="form-row">
+            <label>작업 분야<select name="category"><option value="">선택해 주세요</option><option>PORTRAIT</option><option>PRODUCT</option><option>EVENT</option><option>FILM</option><option>기타</option></select></label>
+            <label>희망 일정<input name="schedule" placeholder="예: 10월 중순 / 협의 가능" maxlength="150"></label>
+          </div>
+          <label>문의 내용 (필수)<textarea name="message" rows="6" placeholder="작업 목적, 촬영 내용, 장소, 예상 예산 등을 자유롭게 적어 주세요." required maxlength="10000"></textarea></label>
+          <div class="form-trap" aria-hidden="true"><label>비워 두세요<input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+          <p class="form-note">이름과 회신 이메일, 문의 내용은 필수 항목입니다.</p>
+          <button id="send-inquiry" class="send-inquiry" type="submit" disabled>전송 준비 중</button>
+          <button id="copy-inquiry" class="text-button copy-inquiry" type="button">문의 내용 복사</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+        <noscript><p class="form-note">문의 폼을 사용하려면 브라우저의 JavaScript를 켜 주세요.</p></noscript>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <strong>The moop studio.</strong>
+    <div>
+      <span class="unavailable" data-site-link="instagram" aria-disabled="true">Instagram</span>
+      <span class="unavailable" data-site-link="email" aria-disabled="true">Email</span>
+      <span class="unavailable" data-site-link="youtube" aria-disabled="true">YouTube</span>
+    </div>
+  </footer>
+</body>
+</html>

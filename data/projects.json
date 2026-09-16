@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "portrait",
+      "label": "PORTRAIT",
+      "description": "인물 · 프로필 · 인터뷰",
+      "cover": null,
+      "coverPosition": "50% 50%"
+    },
+    {
+      "id": "product",
+      "label": "PRODUCT",
+      "description": "제품 · 브랜드 이미지",
+      "cover": null,
+      "coverPosition": "50% 50%"
+    },
+    {
+      "id": "event",
+      "label": "EVENT",
+      "description": "기업 · 행사 · 현장",
+      "cover": null,
+      "coverPosition": "50% 50%"
+    }
+  ],
+  "projects": [
+    {
+      "id": "sample-portrait",
+      "name": "PORTRAIT STUDY",
+      "client": "",
+      "category": "portrait",
+      "medium": "Photography",
+      "year": "",
+      "description": "기존 대표 사진으로 구성한 샘플 프로젝트입니다. 실제 작업명과 설명은 프로젝트 등록 시 입력해 주세요.",
+      "status": "published",
+      "isSample": true,
+      "order": 10,
+      "coverId": "sample-portrait-01",
+      "coverPosition": "50% 50%",
+      "images": [
+        {
+          "id": "sample-portrait-01",
+          "alt": "안경을 쓴 인물의 스튜디오 초상 사진",
+          "caption": "",
+          "order": 1,
+          "width": 7008,
+          "height": 4672,
+          "src": "images/projects/sample-portrait/01-preview.webp",
+          "thumbnail": "images/projects/sample-portrait/01-thumb.webp",
+          "full": "images/projects/sample-portrait/01-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/sample-portrait/01-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/sample-portrait/01-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/sample-portrait/01-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "hero.jpg",
+            "sha256": "fa5be38bddde2fd1565765822f9504894dd4a736a82765498801a63da5bdbf19"
+          }
+        }
+      ]
+    }
+  ]
+}

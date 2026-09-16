@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The moop studio. — 사진과 영상 프로젝트 갤러리">
+  <title>Project — The moop studio.</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="js/project.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#project-content">본문으로 이동</a>
+  <header class="header">
+    <nav class="nav-left" aria-label="주 메뉴">
+      <a href="./#work">WORK</a><a href="./#about">ABOUT</a><a href="contact.html">CONTACT</a>
+    </nav>
+    <a href="./" class="logo">The moop studio.</a>
+    <nav class="nav-right" aria-label="작업 유형">
+      <a href="./#work" class="active">PHOTO</a>
+      <span class="unavailable" data-site-link="film" aria-disabled="true">FILM</span>
+    </nav>
+  </header>
+  <main class="project-main">
+    <a href="./#work" class="back-link" data-category-back>← WORK</a>
+    <div id="project-content" aria-live="polite"><p class="empty-copy">프로젝트를 불러오는 중…</p></div>
+    <noscript><p>프로젝트 갤러리를 보려면 브라우저의 JavaScript를 켜 주세요.</p></noscript>
+    <a href="./#work" class="back-link project-end" data-category-back>← BACK TO WORK</a>
+  </main>
+  <footer>
+    <strong>The moop studio.</strong>
+    <div>
+      <span class="unavailable" data-site-link="instagram" aria-disabled="true">Instagram</span>
+      <span class="unavailable" data-site-link="email" aria-disabled="true">Email</span>
+      <span class="unavailable" data-site-link="youtube" aria-disabled="true">YouTube</span>
+    </div>
+  </footer>
+  <dialog id="lightbox" class="lightbox" aria-label="사진 확대 보기">
+    <div class="lightbox-toolbar">
+      <span class="lightbox-counter" aria-live="polite"></span>
+      <button type="button" data-close aria-label="확대 보기 닫기">CLOSE ×</button>
+    </div>
+    <div class="lightbox-stage"></div>
+    <p class="lightbox-message" role="status"></p>
+    <button class="lightbox-arrow lightbox-prev" type="button" data-previous aria-label="이전 사진">←</button>
+    <button class="lightbox-arrow lightbox-next" type="button" data-next aria-label="다음 사진">→</button>
+  </dialog>
+</body>
+</html>
