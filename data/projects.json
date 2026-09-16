@@ -110,48 +110,340 @@
   "projects": [
     {
       "id": "sample-portrait",
-      "name": "PORTRAIT STUDY",
+      "name": "마운자로 홍보 이미지 촬영",
+      "client": "일라이 릴리(Eli Lilly)",
+      "category": "portrait",
+      "medium": "Photography",
+      "year": "2026",
+      "description": "호리존 스튜디오에서 진행된 마운자로 홍보 이미지 촬영입니다. ",
+      "status": "published",
+      "isSample": false,
+      "order": 10,
+      "coverId": "photo-ce6049331fbb4c61b4d8724400cf6547",
+      "coverPosition": "50% 50%",
+      "images": [
+        {
+          "id": "photo-e100949beb1b4f0d8388610c43b181fc",
+          "alt": "",
+          "caption": "",
+          "order": 20,
+          "width": 1365,
+          "height": 2048,
+          "src": "images/projects/sample-portrait/e100949beb1b4f0d8388610c43b181fc/photo-preview.webp",
+          "thumbnail": "images/projects/sample-portrait/e100949beb1b4f0d8388610c43b181fc/photo-thumb.webp",
+          "full": "images/projects/sample-portrait/e100949beb1b4f0d8388610c43b181fc/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/sample-portrait/e100949beb1b4f0d8388610c43b181fc/photo-thumb.webp",
+              "width": 427
+            },
+            {
+              "src": "images/projects/sample-portrait/e100949beb1b4f0d8388610c43b181fc/photo-preview.webp",
+              "width": 1066
+            },
+            {
+              "src": "images/projects/sample-portrait/e100949beb1b4f0d8388610c43b181fc/photo-full.webp",
+              "width": 1365
+            }
+          ],
+          "source": {
+            "filename": "C2_08877.jpg",
+            "sha256": "e0b5e04ac1e542c85dabcc3383d48d559df86831407400a8f6f73f009f596aa0"
+          }
+        },
+        {
+          "id": "photo-ce6049331fbb4c61b4d8724400cf6547",
+          "alt": "",
+          "caption": "",
+          "order": 10,
+          "width": 2048,
+          "height": 1365,
+          "src": "images/projects/sample-portrait/ce6049331fbb4c61b4d8724400cf6547/photo-preview.webp",
+          "thumbnail": "images/projects/sample-portrait/ce6049331fbb4c61b4d8724400cf6547/photo-thumb.webp",
+          "full": "images/projects/sample-portrait/ce6049331fbb4c61b4d8724400cf6547/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/sample-portrait/ce6049331fbb4c61b4d8724400cf6547/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/sample-portrait/ce6049331fbb4c61b4d8724400cf6547/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/sample-portrait/ce6049331fbb4c61b4d8724400cf6547/photo-full.webp",
+              "width": 2048
+            }
+          ],
+          "source": {
+            "filename": "C2_09147.jpg",
+            "sha256": "01b599d38ef3113d01a16c3986d1d2e090b4cd86a5714a7a14d024c1feb65cbc"
+          }
+        },
+        {
+          "id": "photo-34accd673af14bc298945cbef8f9c3d6",
+          "alt": "",
+          "caption": "",
+          "order": 30,
+          "width": 2048,
+          "height": 1365,
+          "src": "images/projects/sample-portrait/34accd673af14bc298945cbef8f9c3d6/photo-preview.webp",
+          "thumbnail": "images/projects/sample-portrait/34accd673af14bc298945cbef8f9c3d6/photo-thumb.webp",
+          "full": "images/projects/sample-portrait/34accd673af14bc298945cbef8f9c3d6/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/sample-portrait/34accd673af14bc298945cbef8f9c3d6/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/sample-portrait/34accd673af14bc298945cbef8f9c3d6/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/sample-portrait/34accd673af14bc298945cbef8f9c3d6/photo-full.webp",
+              "width": 2048
+            }
+          ],
+          "source": {
+            "filename": "C2_09287.jpg",
+            "sha256": "370615495d7a506a008f46713d2bb69c2830bfb6c79daf670e3d05240fdcad33"
+          }
+        }
+      ]
+    },
+    {
+      "id": "project-mu46zbeh",
+      "name": "의류 브랜드 YOOGANG 홍보 이미지 촬영",
+      "client": "YOOGANG",
+      "category": "portrait",
+      "medium": "Photography & Film",
+      "year": "2025",
+      "description": "내제된 남성성을 주제로 3인의 남성 모델과 함께 야외 로케이션에서 촬영 진행",
+      "status": "draft",
+      "isSample": false,
+      "order": 20,
+      "coverId": "photo-1e7da7f5a6b343b58c744e7ae7c70536",
+      "coverPosition": "50% 50%",
+      "images": [
+        {
+          "id": "photo-7193dd7bcfc849b6a689806d58db8cc9",
+          "alt": "",
+          "caption": "",
+          "order": 50,
+          "width": 1365,
+          "height": 2048,
+          "src": "images/projects/project-mu46zbeh/7193dd7bcfc849b6a689806d58db8cc9/photo-preview.webp",
+          "thumbnail": "images/projects/project-mu46zbeh/7193dd7bcfc849b6a689806d58db8cc9/photo-thumb.webp",
+          "full": "images/projects/project-mu46zbeh/7193dd7bcfc849b6a689806d58db8cc9/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-mu46zbeh/7193dd7bcfc849b6a689806d58db8cc9/photo-thumb.webp",
+              "width": 427
+            },
+            {
+              "src": "images/projects/project-mu46zbeh/7193dd7bcfc849b6a689806d58db8cc9/photo-preview.webp",
+              "width": 1066
+            },
+            {
+              "src": "images/projects/project-mu46zbeh/7193dd7bcfc849b6a689806d58db8cc9/photo-full.webp",
+              "width": 1365
+            }
+          ],
+          "source": {
+            "filename": "C2_03404.jpg",
+            "sha256": "9c1fc73632a142e0f2d68232afffa4e32694226dddd5e21842a11cb660d351b0"
+          }
+        },
+        {
+          "id": "photo-921ac98df7fa44cebe9bf52ae0a45be9",
+          "alt": "",
+          "caption": "",
+          "order": 30,
+          "width": 2048,
+          "height": 1365,
+          "src": "images/projects/project-mu46zbeh/921ac98df7fa44cebe9bf52ae0a45be9/photo-preview.webp",
+          "thumbnail": "images/projects/project-mu46zbeh/921ac98df7fa44cebe9bf52ae0a45be9/photo-thumb.webp",
+          "full": "images/projects/project-mu46zbeh/921ac98df7fa44cebe9bf52ae0a45be9/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-mu46zbeh/921ac98df7fa44cebe9bf52ae0a45be9/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-mu46zbeh/921ac98df7fa44cebe9bf52ae0a45be9/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-mu46zbeh/921ac98df7fa44cebe9bf52ae0a45be9/photo-full.webp",
+              "width": 2048
+            }
+          ],
+          "source": {
+            "filename": "C2_03454.jpg",
+            "sha256": "0c75178ccfa5e46e27d3d7f59c06ffbc47d5ff7ab65483a05b707dbc85a101f3"
+          }
+        },
+        {
+          "id": "photo-907de1ea7b5542b1ae1ee9238d820eda",
+          "alt": "",
+          "caption": "",
+          "order": 60,
+          "width": 1413,
+          "height": 2048,
+          "src": "images/projects/project-mu46zbeh/907de1ea7b5542b1ae1ee9238d820eda/photo-preview.webp",
+          "thumbnail": "images/projects/project-mu46zbeh/907de1ea7b5542b1ae1ee9238d820eda/photo-thumb.webp",
+          "full": "images/projects/project-mu46zbeh/907de1ea7b5542b1ae1ee9238d820eda/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-mu46zbeh/907de1ea7b5542b1ae1ee9238d820eda/photo-thumb.webp",
+              "width": 442
+            },
+            {
+              "src": "images/projects/project-mu46zbeh/907de1ea7b5542b1ae1ee9238d820eda/photo-preview.webp",
+              "width": 1104
+            },
+            {
+              "src": "images/projects/project-mu46zbeh/907de1ea7b5542b1ae1ee9238d820eda/photo-full.webp",
+              "width": 1413
+            }
+          ],
+          "source": {
+            "filename": "C2_03624.jpg",
+            "sha256": "6a93bf680af7ee21a97cdca8245182b9efadbfbf0d5fe5f436c30385e1d3463d"
+          }
+        },
+        {
+          "id": "photo-40617db4154d4d6994a8c6b49b3a2d10",
+          "alt": "",
+          "caption": "",
+          "order": 70,
+          "width": 1365,
+          "height": 2048,
+          "src": "images/projects/project-mu46zbeh/40617db4154d4d6994a8c6b49b3a2d10/photo-preview.webp",
+          "thumbnail": "images/projects/project-mu46zbeh/40617db4154d4d6994a8c6b49b3a2d10/photo-thumb.webp",
+          "full": "images/projects/project-mu46zbeh/40617db4154d4d6994a8c6b49b3a2d10/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-mu46zbeh/40617db4154d4d6994a8c6b49b3a2d10/photo-thumb.webp",
+              "width": 427
+            },
+            {
+              "src": "images/projects/project-mu46zbeh/40617db4154d4d6994a8c6b49b3a2d10/photo-preview.webp",
+              "width": 1066
+            },
+            {
+              "src": "images/projects/project-mu46zbeh/40617db4154d4d6994a8c6b49b3a2d10/photo-full.webp",
+              "width": 1365
+            }
+          ],
+          "source": {
+            "filename": "C2_04102.jpg",
+            "sha256": "ec987ecd6e2b21392c2abee582584e244872543e4d38f9478aa4073b8c265ac6"
+          }
+        },
+        {
+          "id": "photo-7a7e43a0058e4e72951b27ec1745806f",
+          "alt": "",
+          "caption": "",
+          "order": 40,
+          "width": 2048,
+          "height": 1365,
+          "src": "images/projects/project-mu46zbeh/7a7e43a0058e4e72951b27ec1745806f/photo-preview.webp",
+          "thumbnail": "images/projects/project-mu46zbeh/7a7e43a0058e4e72951b27ec1745806f/photo-thumb.webp",
+          "full": "images/projects/project-mu46zbeh/7a7e43a0058e4e72951b27ec1745806f/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-mu46zbeh/7a7e43a0058e4e72951b27ec1745806f/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-mu46zbeh/7a7e43a0058e4e72951b27ec1745806f/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-mu46zbeh/7a7e43a0058e4e72951b27ec1745806f/photo-full.webp",
+              "width": 2048
+            }
+          ],
+          "source": {
+            "filename": "C2_04252.jpg",
+            "sha256": "9f34dd0efd8c2cc9f2b13f24fa7077c1d96bcd1d678d653a112d2d9a2e92985d"
+          }
+        },
+        {
+          "id": "photo-1e7da7f5a6b343b58c744e7ae7c70536",
+          "alt": "",
+          "caption": "",
+          "order": 10,
+          "width": 2048,
+          "height": 1365,
+          "src": "images/projects/project-mu46zbeh/1e7da7f5a6b343b58c744e7ae7c70536/photo-preview.webp",
+          "thumbnail": "images/projects/project-mu46zbeh/1e7da7f5a6b343b58c744e7ae7c70536/photo-thumb.webp",
+          "full": "images/projects/project-mu46zbeh/1e7da7f5a6b343b58c744e7ae7c70536/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-mu46zbeh/1e7da7f5a6b343b58c744e7ae7c70536/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-mu46zbeh/1e7da7f5a6b343b58c744e7ae7c70536/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-mu46zbeh/1e7da7f5a6b343b58c744e7ae7c70536/photo-full.webp",
+              "width": 2048
+            }
+          ],
+          "source": {
+            "filename": "C2_04733.jpg",
+            "sha256": "20c97c4a63e0a7fd7c8352e075e108ab086d8cb9d79f1eba556e50a15fa61ecb"
+          }
+        },
+        {
+          "id": "photo-8e10e87ff1184c5285fdcab844a967ed",
+          "alt": "",
+          "caption": "",
+          "order": 20,
+          "width": 2048,
+          "height": 1365,
+          "src": "images/projects/project-mu46zbeh/8e10e87ff1184c5285fdcab844a967ed/photo-preview.webp",
+          "thumbnail": "images/projects/project-mu46zbeh/8e10e87ff1184c5285fdcab844a967ed/photo-thumb.webp",
+          "full": "images/projects/project-mu46zbeh/8e10e87ff1184c5285fdcab844a967ed/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-mu46zbeh/8e10e87ff1184c5285fdcab844a967ed/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-mu46zbeh/8e10e87ff1184c5285fdcab844a967ed/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-mu46zbeh/8e10e87ff1184c5285fdcab844a967ed/photo-full.webp",
+              "width": 2048
+            }
+          ],
+          "source": {
+            "filename": "C2_04744.jpg",
+            "sha256": "093cc9a0cbf630c5978496021056b602cccdaee3c493942ec9dc26ecc3069dab"
+          }
+        }
+      ]
+    },
+    {
+      "id": "project-mu4781pl",
+      "name": "새 프로젝트",
       "client": "",
       "category": "portrait",
       "medium": "Photography",
       "year": "",
-      "description": "기존 대표 사진으로 구성한 샘플 프로젝트입니다. 실제 작업명과 설명은 프로젝트 등록 시 입력해 주세요.",
-      "status": "published",
-      "isSample": true,
-      "order": 10,
-      "coverId": "sample-portrait-01",
+      "description": "",
+      "status": "draft",
+      "isSample": false,
+      "order": 30,
+      "coverId": "",
       "coverPosition": "50% 50%",
-      "images": [
-        {
-          "id": "sample-portrait-01",
-          "alt": "안경을 쓴 인물의 스튜디오 초상 사진",
-          "caption": "",
-          "order": 1,
-          "width": 7008,
-          "height": 4672,
-          "src": "images/projects/sample-portrait/01-preview.webp",
-          "thumbnail": "images/projects/sample-portrait/01-thumb.webp",
-          "full": "images/projects/sample-portrait/01-full.webp",
-          "sources": [
-            {
-              "src": "images/projects/sample-portrait/01-thumb.webp",
-              "width": 640
-            },
-            {
-              "src": "images/projects/sample-portrait/01-preview.webp",
-              "width": 1600
-            },
-            {
-              "src": "images/projects/sample-portrait/01-full.webp",
-              "width": 2800
-            }
-          ],
-          "source": {
-            "filename": "hero.jpg",
-            "sha256": "fa5be38bddde2fd1565765822f9504894dd4a736a82765498801a63da5bdbf19"
-          }
-        }
-      ]
+      "images": []
     }
   ]
 }
