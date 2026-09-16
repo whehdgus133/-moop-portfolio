@@ -5,21 +5,105 @@
       "id": "portrait",
       "label": "PORTRAIT",
       "description": "인물 · 프로필 · 인터뷰",
-      "cover": null,
+      "cover": {
+        "id": "photo-b0c9ae5623814d0da73db652c4edb898",
+        "alt": "",
+        "caption": "",
+        "order": 1,
+        "width": 2048,
+        "height": 1365,
+        "src": "images/categories/category-portrait/b0c9ae5623814d0da73db652c4edb898/photo-preview.webp",
+        "thumbnail": "images/categories/category-portrait/b0c9ae5623814d0da73db652c4edb898/photo-thumb.webp",
+        "full": "images/categories/category-portrait/b0c9ae5623814d0da73db652c4edb898/photo-full.webp",
+        "sources": [
+          {
+            "src": "images/categories/category-portrait/b0c9ae5623814d0da73db652c4edb898/photo-thumb.webp",
+            "width": 640
+          },
+          {
+            "src": "images/categories/category-portrait/b0c9ae5623814d0da73db652c4edb898/photo-preview.webp",
+            "width": 1600
+          },
+          {
+            "src": "images/categories/category-portrait/b0c9ae5623814d0da73db652c4edb898/photo-full.webp",
+            "width": 2048
+          }
+        ],
+        "source": {
+          "filename": "C2_09147.jpg",
+          "sha256": "01b599d38ef3113d01a16c3986d1d2e090b4cd86a5714a7a14d024c1feb65cbc"
+        }
+      },
       "coverPosition": "50% 50%"
     },
     {
       "id": "product",
       "label": "PRODUCT",
       "description": "제품 · 브랜드 이미지",
-      "cover": null,
+      "cover": {
+        "id": "photo-cafbaedcb80242bda0e556f61ca0a05c",
+        "alt": "",
+        "caption": "",
+        "order": 1,
+        "width": 2048,
+        "height": 1642,
+        "src": "images/categories/category-product/cafbaedcb80242bda0e556f61ca0a05c/photo-preview.webp",
+        "thumbnail": "images/categories/category-product/cafbaedcb80242bda0e556f61ca0a05c/photo-thumb.webp",
+        "full": "images/categories/category-product/cafbaedcb80242bda0e556f61ca0a05c/photo-full.webp",
+        "sources": [
+          {
+            "src": "images/categories/category-product/cafbaedcb80242bda0e556f61ca0a05c/photo-thumb.webp",
+            "width": 640
+          },
+          {
+            "src": "images/categories/category-product/cafbaedcb80242bda0e556f61ca0a05c/photo-preview.webp",
+            "width": 1600
+          },
+          {
+            "src": "images/categories/category-product/cafbaedcb80242bda0e556f61ca0a05c/photo-full.webp",
+            "width": 2048
+          }
+        ],
+        "source": {
+          "filename": "KakaoTalk_20231219_184312409_02-2.jpg",
+          "sha256": "9ded9a374ba94327124f4e2356dc03282bc8f50c1a68ab82e783f07d665c6b16"
+        }
+      },
       "coverPosition": "50% 50%"
     },
     {
       "id": "event",
       "label": "EVENT",
       "description": "기업 · 행사 · 현장",
-      "cover": null,
+      "cover": {
+        "id": "photo-c715cca4dd9343ee8fc743807c4613c8",
+        "alt": "",
+        "caption": "",
+        "order": 1,
+        "width": 2048,
+        "height": 1365,
+        "src": "images/categories/category-event/c715cca4dd9343ee8fc743807c4613c8/photo-preview.webp",
+        "thumbnail": "images/categories/category-event/c715cca4dd9343ee8fc743807c4613c8/photo-thumb.webp",
+        "full": "images/categories/category-event/c715cca4dd9343ee8fc743807c4613c8/photo-full.webp",
+        "sources": [
+          {
+            "src": "images/categories/category-event/c715cca4dd9343ee8fc743807c4613c8/photo-thumb.webp",
+            "width": 640
+          },
+          {
+            "src": "images/categories/category-event/c715cca4dd9343ee8fc743807c4613c8/photo-preview.webp",
+            "width": 1600
+          },
+          {
+            "src": "images/categories/category-event/c715cca4dd9343ee8fc743807c4613c8/photo-full.webp",
+            "width": 2048
+          }
+        ],
+        "source": {
+          "filename": "C2_01289.jpg",
+          "sha256": "ceb15f81d964f1e7fbe767eda4e1ee585fef836c7bddc946b421af603def5f5e"
+        }
+      },
       "coverPosition": "50% 50%"
     }
   ],

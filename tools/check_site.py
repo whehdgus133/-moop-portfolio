@@ -66,10 +66,21 @@ def main():
             photo_ids.add(photo.get('id'))
             require(isinstance(photo.get('order'), (int, float)), f'{key}: 사진 order는 숫자여야 합니다.')
             check_photo(photo, f'{key}/{photo.get("id")}')
-        require(project.get('coverId') in photo_ids, f'{key}: coverId와 일치하는 사진이 없습니다.')
+        if photo_ids or project.get('status') == 'published':
+            require(project.get('coverId') in photo_ids, f'{key}: coverId와 일치하는 사진이 없습니다.')
     for field in ('hero', 'aboutPhoto'):
         if site.get(field):
             check_photo(site[field], field)
+    about = site.get('about', {})
+    for field in ('shootCount', 'clientCount'):
+        count = about.get(field, '')
+        require(not count or bool(re.fullmatch(r'[0-9]{1,8}\+?', str(count))), f'{field}: 숫자 또는 숫자+ 형식으로 입력해 주세요.')
+    for client in about.get('clients', []):
+        require(bool(client.get('name', '').strip()), '클라이언트 이름을 입력해 주세요.')
+        if client.get('logo'):
+            check_photo(client['logo'], f'client/{client.get("id", "")}')
+    for career in about.get('career', []):
+        require(bool(career.get('title', '').strip()), '경력 제목을 입력해 주세요.')
     for field in ('instagram', 'youtube', 'film'):
         link = site['links'].get(field)
         require(not link or (urlparse(link).scheme == 'https' and bool(urlparse(link).netloc)), f'{field}: https 주소를 입력해 주세요.')

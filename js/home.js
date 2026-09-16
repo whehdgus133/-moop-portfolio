@@ -20,7 +20,12 @@ async function init() {
         img.style.objectPosition = category.coverPosition || '50% 50%';
         link.append(img);
       }
-      link.append(element('span', 'category-overlay', category.label));
+      const overlay = element('span', 'category-overlay');
+      const text = element('span', 'category-label');
+      text.append(element('span', 'category-name', category.label));
+      text.append(element('span', 'category-description', category.description || ''));
+      overlay.append(text, element('span', 'category-cta', '사진 더 보기 →'));
+      link.append(overlay);
       item.append(link);
       // Do not imply the reused portrait is an actual product/event assignment.
       if (!category.cover && (!project || project.isSample)) item.append(element('p', 'category-note', '임시 대표 이미지'));

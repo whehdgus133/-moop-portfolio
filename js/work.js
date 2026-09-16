@@ -89,23 +89,23 @@ async function init() {
   try {
     const data = await readData('projects');
     const projects = publishedProjects(data);
-    const id = new URLSearchParams(location.search).get('category');
+    const id = new URLSearchParams(location.search).get('category') || 'all';
     const category = data.categories.find(item => item.id === id);
-    for (const item of data.categories) {
+    for (const item of [{ id: 'all', label: 'ALL' }, ...data.categories]) {
       const link = element('a', 'filter-button', item.label);
-      link.href = localURL(`work.html?category=${encodeURIComponent(item.id)}`);
+      link.href = localURL(item.id === 'all' ? 'work.html' : `work.html?category=${encodeURIComponent(item.id)}`);
       if (item.id === id) link.setAttribute('aria-current', 'page');
       filters.append(link);
     }
-    if (!category) {
+    if (id !== 'all' && !category) {
       document.querySelector('#category-title').textContent = 'WORK';
       status.textContent = '위 메뉴에서 작업 분야를 선택해 주세요.';
       return;
     }
-    document.title = `${category.label} — The moop studio.`;
-    document.querySelector('#category-title').textContent = category.label;
-    document.querySelector('#category-description').textContent = category.description || '';
-    const selection = projects.filter(project => project.category === category.id);
+    document.title = `${category?.label || 'Work'} — The moop studio.`;
+    document.querySelector('#category-title').textContent = category?.label || 'WORK';
+    document.querySelector('#category-description').textContent = category?.description || 'Portrait · Product · Event';
+    const selection = id === 'all' ? projects : projects.filter(project => project.category === id);
     grid.replaceChildren(...selection.map(project => projectCard(project, data.categories)));
     status.textContent = selection.length ? `${String(selection.length).padStart(2, '0')} PROJECT${selection.length === 1 ? '' : 'S'}` : '프로젝트를 준비하고 있습니다.';
   } catch (error) {

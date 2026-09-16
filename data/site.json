@@ -39,5 +39,20 @@
   "contact": {
     "phone": "010-9006-1382",
     "formEndpoint": ""
+  },
+  "copy": {
+    "heroTitle": "브랜드를 위한\n사진을 만듭니다.",
+    "heroSubtitle": "Commercial Photography\nPortrait · Product · Event",
+    "aboutName": "조동현",
+    "aboutRole": "Photographer & Director",
+    "aboutDescription": "상업 사진과 영상을 촬영하고 있습니다.\n기업, 브랜드, 기관과 함께 다양한 작업을 진행해왔습니다.\n서울 · 경기를 중심으로 작업합니다."
+  },
+  "about": {
+    "biography": "",
+    "shootCount": "500+",
+    "clientCount": "100+",
+    "clientsIntro": "",
+    "career": [],
+    "clients": []
   }
 }

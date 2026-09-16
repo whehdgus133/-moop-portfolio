@@ -70,6 +70,17 @@ export async function setupSite() {
       link.href = key === 'email' ? `mailto:${value}` : externalURL(value);
       placeholder.replaceWith(link);
     }
+    const copy = site.copy || {};
+    for (const [key, selector] of Object.entries({
+      heroTitle: '.hero-copy h1', heroSubtitle: '.hero-copy p',
+      aboutName: '.about-text h2', aboutRole: '.about-text .role', aboutDescription: '.about-text .description',
+    })) {
+      const node = document.querySelector(selector);
+      if (node && typeof copy[key] === 'string') {
+        node.textContent = copy[key];
+        node.style.whiteSpace = 'pre-line';
+      }
+    }
     const hero = document.querySelector('[data-hero]');
     if (hero && site.hero) {
       const img = photoElement(site.hero, '(max-width: 700px) 100vw, 68vw');
