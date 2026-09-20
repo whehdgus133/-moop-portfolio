@@ -104,7 +104,7 @@ async function init() {
     }
     document.title = `${category?.label || 'Work'} — The moop studio.`;
     document.querySelector('#category-title').textContent = category?.label || 'WORK';
-    document.querySelector('#category-description').textContent = category?.description || 'Portrait · Product · Event';
+    document.querySelector('#category-description').textContent = category?.description || 'Portrait · Product & Brand · Event';
     const selection = id === 'all' ? projects : projects.filter(project => project.category === id);
     grid.replaceChildren(...selection.map(project => projectCard(project, data.categories)));
     status.textContent = selection.length ? `${String(selection.length).padStart(2, '0')} PROJECT${selection.length === 1 ? '' : 'S'}` : '프로젝트를 준비하고 있습니다.';

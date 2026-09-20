@@ -38,11 +38,28 @@
   },
   "contact": {
     "phone": "010-9006-1382",
-    "formEndpoint": ""
+    "formEndpoint": "",
+    "faq": [
+      {
+        "id": "process",
+        "question": "작업은 어떻게 진행되나요?",
+        "answer": "문의 내용을 확인한 뒤 촬영 범위와 일정을 협의합니다. 작업 방향과 견적을 정하고 촬영, 셀렉·보정, 결과물 전달 순서로 진행합니다."
+      },
+      {
+        "id": "estimate",
+        "question": "비용은 어떻게 정해지나요?",
+        "answer": "촬영 시간·장소, 필요한 결과물, 보정 범위와 사용 목적을 확인한 뒤 안내합니다. 예산 범위가 정해져 있다면 함께 알려주세요."
+      },
+      {
+        "id": "brief",
+        "question": "무엇을 알려주면 되나요?",
+        "answer": "작업 목적, 희망 일정과 장소, 필요한 사진·영상의 종류를 알려주세요. 아직 정해지지 않은 항목은 비워 두셔도 됩니다."
+      }
+    ]
   },
   "copy": {
     "heroTitle": "브랜드를 위한\n사진을 만듭니다.",
-    "heroSubtitle": "Commercial Photography\nPortrait · Product · Event",
+    "heroSubtitle": "Commercial Photography\nPortrait · Product & Brand · Event",
     "aboutName": "조동현",
     "aboutRole": "Photographer & Director",
     "aboutDescription": "상업 사진과 영상을 촬영하고 있습니다.\n기업, 브랜드, 기관과 함께 다양한 작업을 진행해왔습니다.\n서울 · 경기를 중심으로 작업합니다."

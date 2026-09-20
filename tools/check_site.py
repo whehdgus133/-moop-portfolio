@@ -88,6 +88,15 @@ def main():
     require(not email or bool(re.fullmatch(r'[^\s@]+@[^\s@]+\.[^\s@]+', email)), 'email: 이메일 주소만 입력해 주세요.')
     endpoint = site.get('contact', {}).get('formEndpoint', '')
     require(not endpoint or bool(re.fullmatch(r'https://formspree\.io/f/[a-zA-Z0-9]+', endpoint)), 'formEndpoint: 발급된 Formspree 폼 주소를 입력해 주세요.')
+    faq = site.get('contact', {}).get('faq', [])
+    require(isinstance(faq, list) and len(faq) <= 12, 'Q&A는 최대 12개까지 입력해 주세요.')
+    faq_ids = set()
+    for item in faq:
+        require(bool(re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', item.get('id', ''))) and item.get('id') not in faq_ids, 'Q&A 질문 ID가 없거나 중복되었습니다.')
+        faq_ids.add(item.get('id'))
+        for field, limit in (('question', 100), ('answer', 1000)):
+            value = item.get(field)
+            require(isinstance(value, str) and bool(value.strip()) and len(value) <= limit, f'Q&A {field}: 내용을 확인해 주세요.')
     for note in notes:
         print('참고:', note)
     for error in errors:

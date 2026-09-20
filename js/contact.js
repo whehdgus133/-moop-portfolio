@@ -69,6 +69,15 @@ async function init() {
     document.querySelector('#contact-email').replaceChildren(link);
   }
   const configured = site.contact?.formEndpoint || '';
+  const faq = Array.isArray(site.contact?.faq) ? site.contact.faq : [];
+  const faqList = document.querySelector('#faq-list');
+  for (const item of faq) {
+    if (!item?.question?.trim() || !item?.answer?.trim()) continue;
+    const detail = element('details', 'faq-item');
+    detail.append(element('summary', '', item.question), element('p', '', item.answer));
+    faqList.append(detail);
+  }
+  document.querySelector('#contact-faq').hidden = faqList.childElementCount === 0;
   // Only a public Formspree form URL is required; never put secret keys in site data.
   if (/^https:\/\/formspree\.io\/f\/[a-zA-Z0-9]+$/.test(configured)) {
     endpoint = configured;

@@ -5,10 +5,10 @@
 ## 먼저 알아둘 점
 
 - 실제 사진은 기존 `images/hero.jpg` 한 장뿐입니다. 이를 사용한 **PORTRAIT STUDY 샘플 프로젝트**만 등록했습니다. 실제 고객명·연도·실적을 만들어 넣지 않았습니다.
-- PRODUCT / EVENT도 분류로 준비되어 있습니다. 프로젝트가 없으면 준비 중으로 표시됩니다.
+- PRODUCT & BRAND / EVENT도 분류로 준비되어 있습니다. 프로젝트가 없으면 준비 중으로 표시됩니다.
 - 원본 `images/hero.jpg`는 수정하거나 삭제하지 않았습니다. 사이트는 작게 변환한 WebP를 사용합니다.
 - CONTACT에 전화번호와 이메일을 반영했습니다. ABOUT 사진, SNS, FILM 주소는 비어 있습니다. 비어 있는 링크는 클릭되지 않습니다.
-- 메인 WORK는 PORTRAIT / PRODUCT / EVENT 세 분야의 입구입니다. 현재 대표 사진은 기존 사진을 임시로 재사용하며 각 분야에 들어가면 그 분야의 공개 프로젝트만 표시됩니다.
+- 메인 WORK는 PORTRAIT / PRODUCT & BRAND / EVENT 세 분야의 입구입니다. 각 분야에 들어가면 그 분야의 공개 프로젝트만 표시됩니다.
 - AI 자동 분류나 관리자 업로드 화면 자체는 아직 구현하지 않았습니다. 프로젝트 데이터와 이미지 변환 도구가 향후 자동화의 연결 지점입니다.
 
 ## 파일 구성
@@ -166,6 +166,7 @@ python3 tools/check_site.py
 `data/site.json`에서 관리합니다.
 
 - `contact.phone`: 현재 `010-9006-1382`. 모바일에서 누르면 전화 앱으로 연결됩니다.
+- `contact.faq`: 문의 폼 아래 Q&A입니다. 관리화면의 **연락처 · 링크**에서 질문·답변과 순서를 바꿀 수 있습니다. 실제 금액은 확인된 단가만 입력하세요.
 - `links.email`: 현재 `moopstudio@naver.com`. 누르면 메일 앱으로 연결됩니다.
 - `links.instagram`, `links.youtube`, `links.film`: `https://`로 시작하는 실제 URL. 빈 문자열이면 비활성 상태입니다.
 - `aboutPhoto`: 현재 null. 사진을 준비하면 `{"src":"images/about/profile.webp","width":1200,"height":1600,"alt":"실제 소개 사진 설명"}` 형식으로 입력합니다. 크기는 실제 사진에 맞춥니다.
@@ -224,7 +225,7 @@ Formspree 폼 주소만 사용하며 비밀 API 키는 필요하지 않습니다
 
 ## ABOUT과 전체 WORK
 
-상단 WORK는 전체 공개 프로젝트를 보여줍니다. ALL / PORTRAIT / PRODUCT / EVENT 메뉴로 이동할 수 있습니다. 초안은 실제 사이트에서 숨깁니다. 작업을 추가할 때 HTML을 수정할 필요가 없습니다.
+상단 WORK는 전체 공개 프로젝트를 보여줍니다. ALL / PORTRAIT / PRODUCT & BRAND / EVENT 메뉴로 이동할 수 있습니다. 초안은 실제 사이트에서 숨깁니다. 작업을 추가할 때 HTML을 수정할 필요가 없습니다.
 
 상단 ABOUT은 별도 소개 페이지입니다. 관리화면의 **ABOUT · 경력 · 로고**에서 프로필 사진, 이름·직함·소개, 주요 경력, 촬영 횟수, 클라이언트 수, 협업 로고를 관리합니다. 데이터는 `site.json`의 `copy`, `aboutPhoto`, `about`에 저장됩니다. 입력되지 않은 숫자는 0으로 추정하지 않고 집계 준비 중으로 표시합니다. 클라이언트 로고가 없으면 이름만 표시할 수 있습니다. 투명 PNG 로고는 원래 화면비와 투명도를 유지한 WebP로 저장합니다.
 

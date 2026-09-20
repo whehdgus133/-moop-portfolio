@@ -46,7 +46,7 @@
           </div>
           <label>회신 이메일 (필수)<input name="email" type="email" autocomplete="email" required maxlength="254"></label>
           <div class="form-row">
-            <label>작업 분야<select name="category"><option value="">선택해 주세요</option><option>PORTRAIT</option><option>PRODUCT</option><option>EVENT</option><option>FILM</option><option>기타</option></select></label>
+            <label>작업 분야<select name="category"><option value="">선택해 주세요</option><option>PORTRAIT</option><option>PRODUCT &amp; BRAND</option><option>EVENT</option><option>FILM</option><option>기타</option></select></label>
             <label>희망 일정<input name="schedule" placeholder="예: 10월 중순 / 협의 가능" maxlength="150"></label>
           </div>
           <label>문의 내용 (필수)<textarea name="message" rows="6" placeholder="작업 목적, 촬영 내용, 장소, 예상 예산 등을 자유롭게 적어 주세요." required maxlength="10000"></textarea></label>
@@ -57,6 +57,10 @@
           <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
         </form>
         <noscript><p class="form-note">문의 폼을 사용하려면 브라우저의 JavaScript를 켜 주세요.</p></noscript>
+        <section id="contact-faq" class="contact-faq" aria-labelledby="faq-title" hidden>
+          <h2 id="faq-title">Q&amp;A</h2>
+          <div id="faq-list"></div>
+        </section>
       </section>
     </div>
   </main>
