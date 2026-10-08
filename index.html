@@ -29,7 +29,7 @@
 
     <nav class="nav-right" aria-label="작업 유형">
       <a href="./" class="active">PHOTO</a>
-      <span class="unavailable" data-site-link="film" aria-disabled="true">FILM</span>
+      <a href="film.html">FILM</a>
     </nav>
 
   </header>
@@ -58,9 +58,30 @@
 
       </div>
 
-     <div class="hero-image" data-hero>
-  <img src="images/hero/uploads/b4ef0ddf1e54404f844f15a0a9641f71/photo-preview.webp" width="2103" height="633" alt="" fetchpriority="high" sizes="(max-width: 700px) 100vw, 68vw" srcset="images/hero/uploads/b4ef0ddf1e54404f844f15a0a9641f71/photo-thumb.webp 640w, images/hero/uploads/b4ef0ddf1e54404f844f15a0a9641f71/photo-preview.webp 1600w, images/hero/uploads/b4ef0ddf1e54404f844f15a0a9641f71/photo-full.webp 2103w">
-</div>
+      <div class="hero-showcase" data-highlight-card>
+        <div class="hero-flip">
+          <div class="hero-face hero-front">
+            <div class="hero-image" data-hero>
+              <img src="images/hero/uploads/b4ef0ddf1e54404f844f15a0a9641f71/photo-preview.webp" width="2103" height="633" alt="" fetchpriority="high" sizes="(max-width: 700px) 100vw, 68vw" srcset="images/hero/uploads/b4ef0ddf1e54404f844f15a0a9641f71/photo-thumb.webp 640w, images/hero/uploads/b4ef0ddf1e54404f844f15a0a9641f71/photo-preview.webp 1600w, images/hero/uploads/b4ef0ddf1e54404f844f15a0a9641f71/photo-full.webp 2103w">
+            </div>
+            <span class="hero-brand-mark" aria-hidden="true">The moop studio.</span>
+            <button class="highlight-toggle" type="button" aria-label="선정 작업 하이라이트 보기" aria-expanded="false"></button>
+          </div>
+          <div class="hero-face hero-back">
+            <a class="highlight-link" href="work.html" aria-label="선정 작업 전체 보기">
+              <span class="highlight-media" data-highlight-media aria-hidden="true"></span>
+              <span class="highlight-shade" aria-hidden="true"></span>
+              <span class="highlight-copy">
+                <strong>The moop studio.</strong>
+                <span class="highlight-kicker">SELECTED WORK</span>
+                <span>Portrait · Product &amp; Brand · Event</span>
+                <span class="highlight-cta">VIEW ALL WORK →</span>
+              </span>
+              <span class="highlight-count" data-highlight-count aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+      </div>
 
     </section>
 

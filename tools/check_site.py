@@ -3,11 +3,25 @@
 import json
 import re
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, parse_qs
 
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
 notes = []
+
+
+def youtube_id(value):
+    if not isinstance(value, str): return None
+    try: parsed = urlparse(value.strip())
+    except ValueError: return None
+    if parsed.scheme != 'https': return None
+    host = (parsed.hostname or '').lower(); candidate = ''
+    if host in ('youtu.be','www.youtu.be'): candidate = parsed.path.strip('/').split('/')[0]
+    elif host in ('youtube.com','www.youtube.com','m.youtube.com'):
+        parts = parsed.path.strip('/').split('/')
+        if parsed.path == '/watch': candidate = parse_qs(parsed.query).get('v',[''])[0]
+        elif len(parts) >= 2 and parts[0] in ('shorts','embed','live'): candidate = parts[1]
+    return candidate if re.fullmatch(r'[A-Za-z0-9_-]{11}', candidate or '') else None
 
 
 def require(condition, message):
@@ -43,8 +57,9 @@ def check_photo(photo, label):
 
 def main():
     data = json.loads((ROOT / 'data/projects.json').read_text())
+    films = json.loads((ROOT / 'data/films.json').read_text())
     site = json.loads((ROOT / 'data/site.json').read_text())
-    require(data.get('schemaVersion') == 1 and site.get('schemaVersion') == 1, 'schemaVersion은 1이어야 합니다.')
+    require(data.get('schemaVersion') == 1 and films.get('schemaVersion') == 1 and site.get('schemaVersion') == 1, 'schemaVersion은 1이어야 합니다.')
     categories = {item['id'] for item in data['categories']}
     require(len(categories) == len(data['categories']), '카테고리 ID가 중복되었습니다.')
     for category in data['categories']:
@@ -68,6 +83,30 @@ def main():
             check_photo(photo, f'{key}/{photo.get("id")}')
         if photo_ids or project.get('status') == 'published':
             require(project.get('coverId') in photo_ids, f'{key}: coverId와 일치하는 사진이 없습니다.')
+    film_categories = {item['id'] for item in films['categories']}
+    require(film_categories == {'commercial','campaign','contents','dop'}, '영상 분야는 commercial, campaign, contents, dop여야 합니다.')
+    film_ids = set()
+    for film in films['films']:
+        key = film.get('id','')
+        require(bool(re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', key)) and key not in film_ids, f'{key}: 영상 ID가 없거나 중복되었습니다.')
+        film_ids.add(key)
+        require(bool(film.get('title','').strip()), f'{key}: 영상 제목이 필요합니다.')
+        require(film.get('category') in film_categories, f'{key}: 존재하지 않는 영상 분야입니다.')
+        require(film.get('status') in ('draft','published'), f'{key}: 영상 status는 draft 또는 published여야 합니다.')
+        require(isinstance(film.get('order'), (int,float)), f'{key}: 영상 order는 숫자여야 합니다.')
+        if film.get('thumbnail'): check_photo(film['thumbnail'], f'film/{key}/thumbnail')
+        video = film.get('video')
+        if video:
+            if video.get('kind') == 'youtube':
+                parsed_id = youtube_id(video.get('url'))
+                require(bool(parsed_id) and parsed_id == video.get('videoId'), f'{key}: YouTube 영상 주소를 확인해 주세요.')
+            else:
+                local_file(video.get('src'), f'film/{key}/video')
+                target = ROOT / video.get('src','')
+                require(target.suffix.lower() in ('.mp4','.m4v','.webm'), f'{key}: MP4, M4V, WebM 영상만 사용할 수 있습니다.')
+                require(target.is_file() and target.stat().st_size <= 95*1024*1024, f'{key}: 영상은 95MB 이하여야 합니다.')
+                require(isinstance(video.get('size'), int) and target.is_file() and video['size'] == target.stat().st_size, f'{key}: 영상 크기 정보가 올바르지 않습니다.')
+        if film.get('status') == 'published': require(bool(video) and (bool(film.get('thumbnail')) or video.get('kind') == 'youtube'), f'{key}: 공개 영상의 본편과 썸네일을 확인해 주세요.')
     for field in ('hero', 'aboutPhoto'):
         if site.get(field):
             check_photo(site[field], field)
@@ -103,7 +142,7 @@ def main():
         print('오류:', error)
     if errors:
         raise SystemExit(1)
-    print(f'검사 통과: 프로젝트 {len(ids)}개, 이미지 경로와 데이터 형식 정상.')
+    print(f'검사 통과: 사진 프로젝트 {len(ids)}개, 영상 프로젝트 {len(film_ids)}개, 파일 경로와 데이터 형식 정상.')
 
 
 if __name__ == '__main__':

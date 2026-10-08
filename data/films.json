@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "dop",
+      "label": "DOP",
+      "description": "팀 프로젝트에서 촬영감독으로 참여한 영상"
+    },
+    {
+      "id": "commercial",
+      "label": "COMMERCIAL",
+      "description": "브랜드와 제품을 위한 상업 영상"
+    },
+    {
+      "id": "campaign",
+      "label": "CAMPAIGN",
+      "description": "캠페인의 메시지와 장면을 담은 영상"
+    },
+    {
+      "id": "contents",
+      "label": "CONTENTS",
+      "description": "채널과 플랫폼을 위한 콘텐츠 영상"
+    }
+  ],
+  "films": []
+}

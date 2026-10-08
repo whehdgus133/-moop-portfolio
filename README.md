@@ -4,18 +4,19 @@
 
 ## 먼저 알아둘 점
 
-- 실제 사진은 기존 `images/hero.jpg` 한 장뿐입니다. 이를 사용한 **PORTRAIT STUDY 샘플 프로젝트**만 등록했습니다. 실제 고객명·연도·실적을 만들어 넣지 않았습니다.
-- PRODUCT & BRAND / EVENT도 분류로 준비되어 있습니다. 프로젝트가 없으면 준비 중으로 표시됩니다.
+- 사진 프로젝트는 PORTRAIT / PRODUCT & BRAND / EVENT, 영상 프로젝트는 COMMERCIAL / CAMPAIGN / CONTENTS / DOP로 관리합니다. DOP는 팀 프로젝트에서 촬영감독으로 참여한 작업에 사용합니다. 프로젝트가 없으면 준비 중으로 표시됩니다.
 - 원본 `images/hero.jpg`는 수정하거나 삭제하지 않았습니다. 사이트는 작게 변환한 WebP를 사용합니다.
-- CONTACT에 전화번호와 이메일을 반영했습니다. ABOUT 사진, SNS, FILM 주소는 비어 있습니다. 비어 있는 링크는 클릭되지 않습니다.
+- CONTACT에 전화번호와 이메일을 반영했습니다. 비어 있는 SNS 링크는 클릭되지 않습니다.
 - 메인 WORK는 PORTRAIT / PRODUCT & BRAND / EVENT 세 분야의 입구입니다. 각 분야에 들어가면 그 분야의 공개 프로젝트만 표시됩니다.
-- AI 자동 분류나 관리자 업로드 화면 자체는 아직 구현하지 않았습니다. 프로젝트 데이터와 이미지 변환 도구가 향후 자동화의 연결 지점입니다.
+- 메인 배너에 마우스를 올리거나 모바일에서 한 번 터치하면 SELECTED WORK가 열립니다. 공개 프로젝트 중 표시 순서가 앞선 5개의 대표 사진이 자동으로 순환합니다.
+- 로컬 관리화면에서 사진 프로젝트와 영상 본편·썸네일을 추가할 수 있습니다. AI 자동 분류는 아직 구현하지 않았습니다.
 
 ## 파일 구성
 
 ```text
 index.html                       메인: 소개 / 세 분야의 WORK / ABOUT
 work.html                        전체 및 분야별 프로젝트 목록
+film.html                        전체 및 분야별 영상 목록과 플레이어
 about.html                       프로필, 경력, 촬영/협업 실적, 클라이언트 로고
 contact.html                     연락처와 프로젝트 문의 폼
 project.html                     모든 프로젝트가 공유하는 상세 갤러리
@@ -24,10 +25,12 @@ js/
   shared.js                      데이터 읽기, 이미지, 공통 설정
   home.js                        메인 분야별 대표 이미지와 링크
   work.js                        분야별 프로젝트 카드, flip
+  film.js                        영상 분야 필터, 썸네일, 큰 화면 재생
   contact.js                     문의 폼, 메일 앱 연결, 선택적 Formspree 전송
   project.js                     상세 갤러리, 확대 보기, 스와이프
 data/
   projects.json                  프로젝트 관리 대장
+  films.json                     영상 프로젝트 관리 대장
   site.json                      대표 사진 / 소개 사진 / 연락처 설정
 images/
   hero.jpg                       기존 원본 — 보존
@@ -35,6 +38,9 @@ images/
   about/                         소개 사진을 넣을 자리
   projects/
     sample-portrait/01-{thumb,preview,full}.webp
+  films/                         영상 썸네일
+media/
+  films/                         웹 재생용 본편 영상
 tools/
   prepare_project.py             원본 폴더 → 웹용 사진 + 프로젝트 초안
   check_site.py                  데이터와 사진 경로 검사
@@ -45,11 +51,23 @@ tools/
 
 ## Mac 전용 관리화면
 
-`/Users/jo/Desktop/WEB/Portfolio_Manager/관리화면 실행.command`를 더블클릭하면 관리화면이 열립니다. 메인/분야 대표 사진, ABOUT, 프로젝트 사진·순서·설명, 연락처를 편집할 수 있습니다.
+`/Users/jo/Desktop/WEB/Portfolio_Manager/관리화면 실행.command`를 더블클릭하면 관리화면이 열립니다. 메인/분야 대표 사진, ABOUT, 사진 프로젝트, 영상 본편·썸네일, 연락처를 편집할 수 있습니다.
 
 **편집 → 미리보기 → 로컬 저장 → 공개 준비 → GitHub Desktop에서 commit / Push origin** 순서로 사용하세요. 저장 전에 변경 내용을 미리 볼 수 있고, 로컬 저장은 GitHub에 자동 반영되지 않습니다. 관리 프로그램은 사이트 폴더 밖에 있어 이 저장소에 포함되지 않습니다. `WEB` 전체를 업로드하지 말고 이 포트폴리오 저장소만 관리하세요.
 
 관리 프로그램 설명과 실행 파일은 옆 폴더 `Portfolio_Manager`에 있습니다. 저장 전 데이터는 관리 프로그램의 `local-data/backups`에 자동 보관됩니다. 초안 상태는 사이트에서만 숨기며 업로드된 사진 파일 자체를 비공개로 만들지는 않습니다.
+
+### 영상 추가하기
+
+관리화면의 **FILM · 영상**에서 새 영상을 만든 뒤 COMMERCIAL, CAMPAIGN, CONTENTS, DOP 중 하나를 선택합니다. 제목과 선택 정보를 입력하고 영상 파일 또는 YouTube 주소를 연결합니다. 처음에는 초안이므로 미리보기로 확인한 다음 **공개 대상**으로 변경해 저장하세요.
+
+- 썸네일은 16:9 가로 이미지를 권장하며 자동으로 웹용 WebP 여러 크기로 변환합니다.
+- 본편은 MP4(H.264)를 권장합니다. M4V와 WebM도 사용할 수 있습니다.
+- YouTube의 일반 영상, youtu.be 공유 주소, Shorts 주소도 지원합니다. 재생할 때는 개인정보 보호형 YouTube 플레이어를 사용합니다.
+- YouTube 영상의 썸네일을 비워 두면 YouTube 대표 이미지를 자동으로 사용하며, 직접 올린 썸네일이 있으면 그것을 우선 표시합니다.
+- GitHub는 큰 파일 업로드를 제한하므로 본편 하나는 95MB 이하여야 합니다. 관리화면은 영상을 재인코딩하지 않으므로 미리 웹용으로 내보내 주세요.
+- 업로드한 원본 본편의 복사본은 관리 폴더의 `local-data/originals-video/`에 보존됩니다.
+- 업로드 파일 영상은 본편과 썸네일이 모두 있어야 공개할 수 있습니다. YouTube 영상은 주소만으로도 공개할 수 있습니다. FILM 페이지에서 썸네일을 누르면 큰 플레이어가 열립니다.
 
 ## 내 컴퓨터에서 확인하기
 
@@ -168,7 +186,7 @@ python3 tools/check_site.py
 - `contact.phone`: 현재 `010-9006-1382`. 모바일에서 누르면 전화 앱으로 연결됩니다.
 - `contact.faq`: 문의 폼 아래 Q&A입니다. 관리화면의 **연락처 · 링크**에서 질문·답변과 순서를 바꿀 수 있습니다. 실제 금액은 확인된 단가만 입력하세요.
 - `links.email`: 현재 `moopstudio@naver.com`. 누르면 메일 앱으로 연결됩니다.
-- `links.instagram`, `links.youtube`, `links.film`: `https://`로 시작하는 실제 URL. 빈 문자열이면 비활성 상태입니다.
+- `links.instagram`, `links.youtube`: `https://`로 시작하는 실제 URL. 빈 문자열이면 비활성 상태입니다.
 - `aboutPhoto`: 현재 null. 사진을 준비하면 `{"src":"images/about/profile.webp","width":1200,"height":1600,"alt":"실제 소개 사진 설명"}` 형식으로 입력합니다. 크기는 실제 사진에 맞춥니다.
 - `hero`: 대표 사진 정보. `src`와 `sources`를 변경하면 됩니다. 초기 로딩용 기본 사진도 바꾸려면 index.html의 `[data-hero]` 안 이미지도 같은 경로로 맞춥니다.
 - 기존 ABOUT 문구는 index.html에 유지했습니다.

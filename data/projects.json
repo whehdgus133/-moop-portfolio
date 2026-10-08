@@ -221,7 +221,7 @@
       "description": "패션 브랜드 YOOGANG의 브랜드 이미지 촬영. 블랙을 중심으로 한 의상의 실루엣과 소재감을 강조하고, 건축적 공간과 직광 플래시를 활용해 브랜드가 가진 강하고 도회적인 무드를 시각화했습니다.",
       "status": "published",
       "isSample": false,
-      "order": 50,
+      "order": 60,
       "coverId": "photo-1e7da7f5a6b343b58c744e7ae7c70536",
       "coverPosition": "50% 50%",
       "images": [
@@ -440,7 +440,7 @@
       "description": "Instagram이 주최한 KIRRI 인플루언서 이벤트 현장 촬영. 다양한 크리에이터와 인플루언서가 참여한 파티의 활기찬 분위기를 중심으로, 브랜드 프로그램과 참여자들의 자연스러운 교류 및 현장 경험을 기록했습니다.",
       "status": "draft",
       "isSample": false,
-      "order": 60,
+      "order": 70,
       "coverId": "photo-a1256fe27a1345f9a584b07f02fc30c2",
       "coverPosition": "50% 50%",
       "images": [
@@ -630,7 +630,7 @@
       "description": "인스파이어 엔터테인먼트 리조트의 가을 시즌 프로모션 이미지 촬영. 시즌 패키지와 F&B를 중심으로 리조트의 공간과 가을의 분위기를 담았으며, 온라인 프로모션 및 디지털 광고 콘텐츠로 활용되었습니다.",
       "status": "published",
       "isSample": true,
-      "order": 70,
+      "order": 80,
       "coverId": "photo-90173756fcdc44c6a38047a071312637",
       "coverPosition": "50% 50%",
       "images": [
@@ -874,7 +874,7 @@
       "description": "인플루언서 김신웅의 프로필 및 퍼스널 브랜딩을 위한 포트레이트 촬영. 밝고 자연스러운 인상을 중심으로 인물의 이미지와 개성이 명확하게 전달될 수 있도록 촬영했습니다.",
       "status": "published",
       "isSample": false,
-      "order": 80,
+      "order": 90,
       "coverId": "photo-0ef10042388d4b9dada827270264b8ef",
       "coverPosition": "50% 50%",
       "images": [
@@ -1180,7 +1180,7 @@
       "description": "Meta에서 주최한 KIRRI 인플루언서 이벤트 현장 촬영. 다양한 크리에이터와 인플루언서가 참여한 파티의 활기찬 분위기를 중심으로, 브랜드 프로그램과 참여자들의 자연스러운 교류 및 현장 경험을 기록했습니다.",
       "status": "published",
       "isSample": false,
-      "order": 90,
+      "order": 100,
       "coverId": "photo-77149f6887b34990a0b3e11266fb246a",
       "coverPosition": "50% 50%",
       "images": [
@@ -1370,7 +1370,7 @@
       "description": "삼성전자의 교육 CSR 사업 ‘삼성 스마트스쿨’ 현장 촬영. 청양군 청송초등학교에서 디지털 교육 환경과 학생들의 실제 수업 참여 모습을 자연스럽게 기록했습니다. 촬영 이미지는 삼성전자의 보도자료 및 대외 홍보 콘텐츠로 활용되었습니다.",
       "status": "published",
       "isSample": true,
-      "order": 40,
+      "order": 50,
       "coverId": "photo-598984fcc87c4395bbacbc8ac588b804",
       "coverPosition": "50% 50%",
       "images": [
@@ -1792,7 +1792,7 @@
       "description": "인스파이어 아레나에서 진행된 ‘Amway 2026 Spring Convention’ 공식 행사 촬영. 대규모 컨벤션의 무대와 연사, 프로그램, 참가자들의 현장 모습을 중심으로 행사의 규모감과 역동적인 분위기를 기록했습니다.",
       "status": "published",
       "isSample": true,
-      "order": 30,
+      "order": 40,
       "coverId": "photo-974dfa12bd794640be5f245912f0b48b",
       "coverPosition": "50% 50%",
       "images": [
@@ -2156,7 +2156,7 @@
       "description": "테라스 꾸까의 2025 가을 시즌 프로모션 이미지 촬영. 플라워 스타일링과 공간의 따뜻한 분위기를 활용해 시즌 메뉴와 다이닝 경험을 함께 보여주는 데 초점을 맞췄습니다. 메뉴 단독 이미지부터 테이블 연출과 공간이 함께 드러나는 이미지까지 다양한 홍보 콘텐츠 활용을 고려해 촬영했습니다.",
       "status": "published",
       "isSample": true,
-      "order": 100,
+      "order": 110,
       "coverId": "photo-bcf5a2f863bc4e37ab99d0ecc4d0bc9b",
       "coverPosition": "50% 50%",
       "images": [
@@ -2957,6 +2957,1343 @@
           "source": {
             "filename": "chrome-capture-2026-09-20.jpg",
             "sha256": "701e62e02285e05dddc2dd833eac3a96edcddf8b2fe7f77414c2c45ef8b5d6da"
+          }
+        }
+      ]
+    },
+    {
+      "id": "project-muzol867",
+      "name": "KBW 2026 업비트 브랜드 이벤트 촬영",
+      "client": "두나무 / 업비트",
+      "category": "event",
+      "medium": "Photography",
+      "year": "2026",
+      "description": "코리아 블록체인 위크(KBW) 2026 업비트 부스의 현장을 촬영했습니다. 브랜드 컬러가 돋보이는 공간 전경부터 퀴즈, 스탬프 투어, 경품 이벤트에 참여하는 관람객의 모습까지, 브랜드와 사람이 만나는 순간과 현장의 활기를 담았습니다.\n_Featured on STN News",
+      "status": "published",
+      "isSample": true,
+      "order": 30,
+      "coverId": "photo-c57e778f4d054037b124716868f5ee79",
+      "coverPosition": "50% 50%",
+      "images": [
+        {
+          "id": "photo-c1d306384c524b3e9388232ba8eb7ec1",
+          "alt": "",
+          "caption": "",
+          "order": 180,
+          "width": 2441,
+          "height": 10217,
+          "src": "images/projects/project-muzol867/c1d306384c524b3e9388232ba8eb7ec1/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/c1d306384c524b3e9388232ba8eb7ec1/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/c1d306384c524b3e9388232ba8eb7ec1/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/c1d306384c524b3e9388232ba8eb7ec1/photo-thumb.webp",
+              "width": 153
+            },
+            {
+              "src": "images/projects/project-muzol867/c1d306384c524b3e9388232ba8eb7ec1/photo-preview.webp",
+              "width": 382
+            },
+            {
+              "src": "images/projects/project-muzol867/c1d306384c524b3e9388232ba8eb7ec1/photo-full.webp",
+              "width": 669
+            }
+          ],
+          "source": {
+            "filename": "chrome-capture-2026-10-02 (1).png",
+            "sha256": "aac3f82cc69799a07577d3460f551618e6dd6e12265290254fe44e7d4d826d4f"
+          }
+        },
+        {
+          "id": "photo-0713c4213c704fa1afedaadeb91a1922",
+          "alt": "",
+          "caption": "",
+          "order": 10,
+          "width": 4500,
+          "height": 2373,
+          "src": "images/projects/project-muzol867/0713c4213c704fa1afedaadeb91a1922/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/0713c4213c704fa1afedaadeb91a1922/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/0713c4213c704fa1afedaadeb91a1922/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/0713c4213c704fa1afedaadeb91a1922/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/0713c4213c704fa1afedaadeb91a1922/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/0713c4213c704fa1afedaadeb91a1922/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Sketch_005.jpg",
+            "sha256": "1549f6c3214b99be2a5e2ce6d0c16802983aaf2bf332f1fe689605351fcdff9a"
+          }
+        },
+        {
+          "id": "photo-494d2d7622024ff0b3a51b40c51f1179",
+          "alt": "",
+          "caption": "",
+          "order": 30,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/494d2d7622024ff0b3a51b40c51f1179/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/494d2d7622024ff0b3a51b40c51f1179/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/494d2d7622024ff0b3a51b40c51f1179/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/494d2d7622024ff0b3a51b40c51f1179/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/494d2d7622024ff0b3a51b40c51f1179/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/494d2d7622024ff0b3a51b40c51f1179/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Sketch_006.jpg",
+            "sha256": "a2a53058dba840c6916d5fd26f8e2bda48fd64b60b9703ff8d2add10168fe53a"
+          }
+        },
+        {
+          "id": "photo-c57e778f4d054037b124716868f5ee79",
+          "alt": "",
+          "caption": "",
+          "order": 20,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/c57e778f4d054037b124716868f5ee79/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/c57e778f4d054037b124716868f5ee79/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/c57e778f4d054037b124716868f5ee79/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/c57e778f4d054037b124716868f5ee79/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/c57e778f4d054037b124716868f5ee79/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/c57e778f4d054037b124716868f5ee79/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Sketch_036.jpg",
+            "sha256": "9db3b273ea78f368268ff6e95e04d3139002de1dc53849d493a70e3e28a13fb7"
+          }
+        },
+        {
+          "id": "photo-9d0cd17ef7f74befa0f5fa189cdef0a0",
+          "alt": "",
+          "caption": "",
+          "order": 50,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/9d0cd17ef7f74befa0f5fa189cdef0a0/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/9d0cd17ef7f74befa0f5fa189cdef0a0/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/9d0cd17ef7f74befa0f5fa189cdef0a0/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/9d0cd17ef7f74befa0f5fa189cdef0a0/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/9d0cd17ef7f74befa0f5fa189cdef0a0/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/9d0cd17ef7f74befa0f5fa189cdef0a0/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Sketch_062.jpg",
+            "sha256": "4343e63361777c6c1342fd871794a432874a2f1fc5f396ab67fcb8ba37c95d53"
+          }
+        },
+        {
+          "id": "photo-5336d613e2d94fedbb5bbe1e0001c310",
+          "alt": "",
+          "caption": "",
+          "order": 70,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/5336d613e2d94fedbb5bbe1e0001c310/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/5336d613e2d94fedbb5bbe1e0001c310/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/5336d613e2d94fedbb5bbe1e0001c310/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/5336d613e2d94fedbb5bbe1e0001c310/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/5336d613e2d94fedbb5bbe1e0001c310/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/5336d613e2d94fedbb5bbe1e0001c310/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Sketch_063.jpg",
+            "sha256": "542a1ec5631f0cd948343cb08395dbba3a6897541af90b966c2af2e2660b268a"
+          }
+        },
+        {
+          "id": "photo-17a24fba5eb04ba1a4886d6d20795bd4",
+          "alt": "",
+          "caption": "",
+          "order": 60,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/17a24fba5eb04ba1a4886d6d20795bd4/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/17a24fba5eb04ba1a4886d6d20795bd4/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/17a24fba5eb04ba1a4886d6d20795bd4/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/17a24fba5eb04ba1a4886d6d20795bd4/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/17a24fba5eb04ba1a4886d6d20795bd4/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/17a24fba5eb04ba1a4886d6d20795bd4/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Sketch_101.jpg",
+            "sha256": "3f07a543b6ade3654e58f85cacec2beac76eea428f841be57e0203a55ce1ae1f"
+          }
+        },
+        {
+          "id": "photo-aedc4c5dcccb4cbbb224d7e77e6beec9",
+          "alt": "",
+          "caption": "",
+          "order": 80,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/aedc4c5dcccb4cbbb224d7e77e6beec9/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/aedc4c5dcccb4cbbb224d7e77e6beec9/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/aedc4c5dcccb4cbbb224d7e77e6beec9/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/aedc4c5dcccb4cbbb224d7e77e6beec9/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/aedc4c5dcccb4cbbb224d7e77e6beec9/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/aedc4c5dcccb4cbbb224d7e77e6beec9/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Sketch_112.jpg",
+            "sha256": "b044fb8b88b94a5a8bd63039a37a85b74ccc9dc278f82b7077b2b723bf4148ac"
+          }
+        },
+        {
+          "id": "photo-b1dfbe2222a743508920def1ae681df1",
+          "alt": "",
+          "caption": "",
+          "order": 40,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/b1dfbe2222a743508920def1ae681df1/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/b1dfbe2222a743508920def1ae681df1/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/b1dfbe2222a743508920def1ae681df1/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/b1dfbe2222a743508920def1ae681df1/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/b1dfbe2222a743508920def1ae681df1/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/b1dfbe2222a743508920def1ae681df1/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Sketch_116.jpg",
+            "sha256": "4a36871affa9e06deb79c939f27185d8cf2bb8de5f26540d15660b8f4778fa97"
+          }
+        },
+        {
+          "id": "photo-394b94e2327a4f9fb99236ef39ad1962",
+          "alt": "",
+          "caption": "",
+          "order": 90,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/394b94e2327a4f9fb99236ef39ad1962/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/394b94e2327a4f9fb99236ef39ad1962/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/394b94e2327a4f9fb99236ef39ad1962/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/394b94e2327a4f9fb99236ef39ad1962/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/394b94e2327a4f9fb99236ef39ad1962/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/394b94e2327a4f9fb99236ef39ad1962/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Sketch_123.jpg",
+            "sha256": "8bb274f5d9d7874cdc15c69625a1b0a5b9889463fe22407f63b3b8db06aac20d"
+          }
+        },
+        {
+          "id": "photo-356ecc38540d44a7b336895c32e1fdc3",
+          "alt": "",
+          "caption": "",
+          "order": 100,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/356ecc38540d44a7b336895c32e1fdc3/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/356ecc38540d44a7b336895c32e1fdc3/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/356ecc38540d44a7b336895c32e1fdc3/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/356ecc38540d44a7b336895c32e1fdc3/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/356ecc38540d44a7b336895c32e1fdc3/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/356ecc38540d44a7b336895c32e1fdc3/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Sketch_129.jpg",
+            "sha256": "21b9ad25fea26e4a15c0a05e677257625712a38ddd08671e174e0fe61c4e98cf"
+          }
+        },
+        {
+          "id": "photo-f6c8721425154b45bd5930bec7fd40ae",
+          "alt": "",
+          "caption": "",
+          "order": 120,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/f6c8721425154b45bd5930bec7fd40ae/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/f6c8721425154b45bd5930bec7fd40ae/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/f6c8721425154b45bd5930bec7fd40ae/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/f6c8721425154b45bd5930bec7fd40ae/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/f6c8721425154b45bd5930bec7fd40ae/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/f6c8721425154b45bd5930bec7fd40ae/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Studio_009.jpg",
+            "sha256": "95e85ed303ea58f8f21b3672679364a9e70e192330f0eb456a12ca2bc884da84"
+          }
+        },
+        {
+          "id": "photo-8ab7013898044a67815167c1ae43d04d",
+          "alt": "",
+          "caption": "",
+          "order": 130,
+          "width": 3000,
+          "height": 4500,
+          "src": "images/projects/project-muzol867/8ab7013898044a67815167c1ae43d04d/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/8ab7013898044a67815167c1ae43d04d/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/8ab7013898044a67815167c1ae43d04d/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/8ab7013898044a67815167c1ae43d04d/photo-thumb.webp",
+              "width": 427
+            },
+            {
+              "src": "images/projects/project-muzol867/8ab7013898044a67815167c1ae43d04d/photo-preview.webp",
+              "width": 1067
+            },
+            {
+              "src": "images/projects/project-muzol867/8ab7013898044a67815167c1ae43d04d/photo-full.webp",
+              "width": 1867
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Studio_010.jpg",
+            "sha256": "128e7b3d9afa7a7809da4b0759d9af46478ac94bd2ee1772f6e1def223e4b3ce"
+          }
+        },
+        {
+          "id": "photo-ca9de997b7aa4a92b60824a2ab342a16",
+          "alt": "",
+          "caption": "",
+          "order": 140,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/ca9de997b7aa4a92b60824a2ab342a16/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/ca9de997b7aa4a92b60824a2ab342a16/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/ca9de997b7aa4a92b60824a2ab342a16/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/ca9de997b7aa4a92b60824a2ab342a16/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/ca9de997b7aa4a92b60824a2ab342a16/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/ca9de997b7aa4a92b60824a2ab342a16/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Studio_011.jpg",
+            "sha256": "8771eab714c10ee7c8cb477d78c508c951f2a04a34db72878c31935b746fd06d"
+          }
+        },
+        {
+          "id": "photo-f92f86c7c8544a05bce83c14ed48bc50",
+          "alt": "",
+          "caption": "",
+          "order": 150,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/f92f86c7c8544a05bce83c14ed48bc50/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/f92f86c7c8544a05bce83c14ed48bc50/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/f92f86c7c8544a05bce83c14ed48bc50/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/f92f86c7c8544a05bce83c14ed48bc50/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/f92f86c7c8544a05bce83c14ed48bc50/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/f92f86c7c8544a05bce83c14ed48bc50/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Studio_028.jpg",
+            "sha256": "d369ac1d0a474b303f0defcb4101e7412893d0f84e750f5ea9becfd80fb60e05"
+          }
+        },
+        {
+          "id": "photo-abb417162fd24517b4c44c390a5ff810",
+          "alt": "",
+          "caption": "",
+          "order": 160,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/abb417162fd24517b4c44c390a5ff810/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/abb417162fd24517b4c44c390a5ff810/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/abb417162fd24517b4c44c390a5ff810/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/abb417162fd24517b4c44c390a5ff810/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/abb417162fd24517b4c44c390a5ff810/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/abb417162fd24517b4c44c390a5ff810/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Studio_030.jpg",
+            "sha256": "7f58709bfaea84f250958dbd3efb765219bf46825522373d70cbca03a9c7f1a6"
+          }
+        },
+        {
+          "id": "photo-4c1082670d7148e29d4a97340dfae0f2",
+          "alt": "",
+          "caption": "",
+          "order": 170,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/4c1082670d7148e29d4a97340dfae0f2/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/4c1082670d7148e29d4a97340dfae0f2/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/4c1082670d7148e29d4a97340dfae0f2/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/4c1082670d7148e29d4a97340dfae0f2/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/4c1082670d7148e29d4a97340dfae0f2/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/4c1082670d7148e29d4a97340dfae0f2/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Studio_056.jpg",
+            "sha256": "6e22faa03caa23e50e3a046d65657ccf73faed2e28d640f5736228b452d004fa"
+          }
+        },
+        {
+          "id": "photo-36f8ded87ce54861b3ea123a754e1316",
+          "alt": "",
+          "caption": "",
+          "order": 110,
+          "width": 4500,
+          "height": 3000,
+          "src": "images/projects/project-muzol867/36f8ded87ce54861b3ea123a754e1316/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzol867/36f8ded87ce54861b3ea123a754e1316/photo-thumb.webp",
+          "full": "images/projects/project-muzol867/36f8ded87ce54861b3ea123a754e1316/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzol867/36f8ded87ce54861b3ea123a754e1316/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzol867/36f8ded87ce54861b3ea123a754e1316/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzol867/36f8ded87ce54861b3ea123a754e1316/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "KBW_0930_Studio_065.jpg",
+            "sha256": "5f80a617f81e36d35333459b8565ca8b58a8b3c7da6972bb5218fc193426d232"
+          }
+        }
+      ]
+    },
+    {
+      "id": "project-muzozrji",
+      "name": "2026 안성맞춤 스쿨문화예술 어울림 한마당",
+      "client": "안성시청",
+      "category": "portrait",
+      "medium": "Photography",
+      "year": "2026",
+      "description": "바우덕이 축제와 연계해 열린 스쿨문화예술 어울림 한마당의 현장을 촬영했습니다. 사물놀이 등 악기 연주에 집중하는 학생들의 모습부터 무대를 기다리며 나누는 웃음, 친구들을 향한 응원까지, 공연과 객석을 오가며 축제를 함께 만드는 순간들을 담았습니다.",
+      "status": "published",
+      "isSample": false,
+      "order": 120,
+      "coverId": "photo-db2c59e086724110a8b22b3a04dbb52a",
+      "coverPosition": "50% 50%",
+      "images": [
+        {
+          "id": "photo-db2c59e086724110a8b22b3a04dbb52a",
+          "alt": "",
+          "caption": "",
+          "order": 80,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/db2c59e086724110a8b22b3a04dbb52a/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/db2c59e086724110a8b22b3a04dbb52a/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/db2c59e086724110a8b22b3a04dbb52a/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/db2c59e086724110a8b22b3a04dbb52a/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/db2c59e086724110a8b22b3a04dbb52a/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/db2c59e086724110a8b22b3a04dbb52a/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_00112.jpg",
+            "sha256": "98742e52853756081beaca9d4abee57c751ef4127cd810717dbb5bed13a1fecc"
+          }
+        },
+        {
+          "id": "photo-33e01191e078486fa016c6705552e0cb",
+          "alt": "",
+          "caption": "",
+          "order": 90,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/33e01191e078486fa016c6705552e0cb/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/33e01191e078486fa016c6705552e0cb/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/33e01191e078486fa016c6705552e0cb/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/33e01191e078486fa016c6705552e0cb/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/33e01191e078486fa016c6705552e0cb/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/33e01191e078486fa016c6705552e0cb/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_07688.jpg",
+            "sha256": "8d8e49e1061f5261cb398e88b8b36e47b80903f74d89a9a9458b0ab5f9546fe3"
+          }
+        },
+        {
+          "id": "photo-7320188a42e94ff28949995d267fedca",
+          "alt": "",
+          "caption": "",
+          "order": 140,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/7320188a42e94ff28949995d267fedca/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/7320188a42e94ff28949995d267fedca/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/7320188a42e94ff28949995d267fedca/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/7320188a42e94ff28949995d267fedca/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/7320188a42e94ff28949995d267fedca/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/7320188a42e94ff28949995d267fedca/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_07738.jpg",
+            "sha256": "cd20a4fa8a068e3352f0c28395a742c320220011b023b6855e3901fd7f1851ba"
+          }
+        },
+        {
+          "id": "photo-ddc57166a041473c89efdc748e71cdce",
+          "alt": "",
+          "caption": "",
+          "order": 180,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/ddc57166a041473c89efdc748e71cdce/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/ddc57166a041473c89efdc748e71cdce/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/ddc57166a041473c89efdc748e71cdce/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/ddc57166a041473c89efdc748e71cdce/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/ddc57166a041473c89efdc748e71cdce/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/ddc57166a041473c89efdc748e71cdce/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_07761.jpg",
+            "sha256": "2832faf2e6fa60afd185fe6df9db946b557206d10b9579183ce29182ea3f983f"
+          }
+        },
+        {
+          "id": "photo-89a6ecbc7d60414697bf2cb1d08a5756",
+          "alt": "",
+          "caption": "",
+          "order": 220,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/89a6ecbc7d60414697bf2cb1d08a5756/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/89a6ecbc7d60414697bf2cb1d08a5756/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/89a6ecbc7d60414697bf2cb1d08a5756/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/89a6ecbc7d60414697bf2cb1d08a5756/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/89a6ecbc7d60414697bf2cb1d08a5756/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/89a6ecbc7d60414697bf2cb1d08a5756/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_07769.jpg",
+            "sha256": "5c9d6098a1d13f5dc7ff91559a8a22f4ff9eb3b870dad83351c5a2b5ed58a2e3"
+          }
+        },
+        {
+          "id": "photo-e1469f1b77084d04ac06e2aa052b7eb0",
+          "alt": "",
+          "caption": "",
+          "order": 150,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/e1469f1b77084d04ac06e2aa052b7eb0/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/e1469f1b77084d04ac06e2aa052b7eb0/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/e1469f1b77084d04ac06e2aa052b7eb0/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/e1469f1b77084d04ac06e2aa052b7eb0/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/e1469f1b77084d04ac06e2aa052b7eb0/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/e1469f1b77084d04ac06e2aa052b7eb0/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_07776.jpg",
+            "sha256": "b6f3696bc1db5a83c36f099bdb5e7265370b5a4d0028b2ecd31fe94a72667715"
+          }
+        },
+        {
+          "id": "photo-841fd97c7da340a0b9516742beacca4f",
+          "alt": "",
+          "caption": "",
+          "order": 30,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/841fd97c7da340a0b9516742beacca4f/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/841fd97c7da340a0b9516742beacca4f/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/841fd97c7da340a0b9516742beacca4f/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/841fd97c7da340a0b9516742beacca4f/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/841fd97c7da340a0b9516742beacca4f/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/841fd97c7da340a0b9516742beacca4f/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_07786.jpg",
+            "sha256": "151d77348b59e92ecc44f69c86ba9d45a8ca405a812a106051762b97ec2b5718"
+          }
+        },
+        {
+          "id": "photo-4a37446475c9495ab269079be51f1374",
+          "alt": "",
+          "caption": "",
+          "order": 40,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/4a37446475c9495ab269079be51f1374/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/4a37446475c9495ab269079be51f1374/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/4a37446475c9495ab269079be51f1374/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/4a37446475c9495ab269079be51f1374/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/4a37446475c9495ab269079be51f1374/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/4a37446475c9495ab269079be51f1374/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_07913.jpg",
+            "sha256": "c3389969dd4e490bac6278d07bffbc5f5e0f7fa7dfe7eacda756d3eb7729562c"
+          }
+        },
+        {
+          "id": "photo-7de3f3dd645948fb837518bca60a6f12",
+          "alt": "",
+          "caption": "",
+          "order": 100,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/7de3f3dd645948fb837518bca60a6f12/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/7de3f3dd645948fb837518bca60a6f12/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/7de3f3dd645948fb837518bca60a6f12/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/7de3f3dd645948fb837518bca60a6f12/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/7de3f3dd645948fb837518bca60a6f12/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/7de3f3dd645948fb837518bca60a6f12/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_08139.jpg",
+            "sha256": "1b3e14b0c484bf91f4a10fcda4e3cf2c01e7f8c2e08e16f4d397cd0d6cf290b6"
+          }
+        },
+        {
+          "id": "photo-ee868ee8e03c4d12b0878307eee53710",
+          "alt": "",
+          "caption": "",
+          "order": 120,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/ee868ee8e03c4d12b0878307eee53710/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/ee868ee8e03c4d12b0878307eee53710/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/ee868ee8e03c4d12b0878307eee53710/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/ee868ee8e03c4d12b0878307eee53710/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/ee868ee8e03c4d12b0878307eee53710/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/ee868ee8e03c4d12b0878307eee53710/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_08276.jpg",
+            "sha256": "ebc5c54c74d52c1cddad503f30c4b8c3091cef7d4cd1f094db220925e24ff885"
+          }
+        },
+        {
+          "id": "photo-ce6c6e07699e4d5f8bdf5f164d0cc9cd",
+          "alt": "",
+          "caption": "",
+          "order": 110,
+          "width": 3072,
+          "height": 4608,
+          "src": "images/projects/project-muzozrji/ce6c6e07699e4d5f8bdf5f164d0cc9cd/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/ce6c6e07699e4d5f8bdf5f164d0cc9cd/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/ce6c6e07699e4d5f8bdf5f164d0cc9cd/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/ce6c6e07699e4d5f8bdf5f164d0cc9cd/photo-thumb.webp",
+              "width": 427
+            },
+            {
+              "src": "images/projects/project-muzozrji/ce6c6e07699e4d5f8bdf5f164d0cc9cd/photo-preview.webp",
+              "width": 1067
+            },
+            {
+              "src": "images/projects/project-muzozrji/ce6c6e07699e4d5f8bdf5f164d0cc9cd/photo-full.webp",
+              "width": 1867
+            }
+          ],
+          "source": {
+            "filename": "C1_08363.jpg",
+            "sha256": "cced0295c8ba6e73004d196dd53f0115d81e6453648acd76d35319e40beed372"
+          }
+        },
+        {
+          "id": "photo-572e11158d7b440babc58c41af556df4",
+          "alt": "",
+          "caption": "",
+          "order": 130,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/572e11158d7b440babc58c41af556df4/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/572e11158d7b440babc58c41af556df4/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/572e11158d7b440babc58c41af556df4/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/572e11158d7b440babc58c41af556df4/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/572e11158d7b440babc58c41af556df4/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/572e11158d7b440babc58c41af556df4/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_08560.jpg",
+            "sha256": "830f845ef7341cb7b94160c7926f69482312316b6067621c7fde62c8dfc16a15"
+          }
+        },
+        {
+          "id": "photo-edfcf120ba184fc5b2d47954a4d1acb3",
+          "alt": "",
+          "caption": "",
+          "order": 170,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/edfcf120ba184fc5b2d47954a4d1acb3/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/edfcf120ba184fc5b2d47954a4d1acb3/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/edfcf120ba184fc5b2d47954a4d1acb3/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/edfcf120ba184fc5b2d47954a4d1acb3/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/edfcf120ba184fc5b2d47954a4d1acb3/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/edfcf120ba184fc5b2d47954a4d1acb3/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_08650.jpg",
+            "sha256": "91684d72631a13355ca4d6b7a7704a15a0b730d64dfee5b862d51cbefb3003db"
+          }
+        },
+        {
+          "id": "photo-1b606012c27e4df9b89015e77122abc5",
+          "alt": "",
+          "caption": "",
+          "order": 160,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/1b606012c27e4df9b89015e77122abc5/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/1b606012c27e4df9b89015e77122abc5/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/1b606012c27e4df9b89015e77122abc5/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/1b606012c27e4df9b89015e77122abc5/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/1b606012c27e4df9b89015e77122abc5/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/1b606012c27e4df9b89015e77122abc5/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_08673.jpg",
+            "sha256": "591961508c42300cbd875122e2e98e78d6def258ac8f7b27176f98653b8b37de"
+          }
+        },
+        {
+          "id": "photo-02219245c175463ba5938d91d3a6dfcf",
+          "alt": "",
+          "caption": "",
+          "order": 200,
+          "width": 3778,
+          "height": 2519,
+          "src": "images/projects/project-muzozrji/02219245c175463ba5938d91d3a6dfcf/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/02219245c175463ba5938d91d3a6dfcf/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/02219245c175463ba5938d91d3a6dfcf/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/02219245c175463ba5938d91d3a6dfcf/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/02219245c175463ba5938d91d3a6dfcf/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/02219245c175463ba5938d91d3a6dfcf/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_08953-2.jpg",
+            "sha256": "58c9e3585056f5a89f4b549efc0277846e9587690ee62238dce6a0842639ef0c"
+          }
+        },
+        {
+          "id": "photo-ee769e6a6bc042ab809d4d4bdea52815",
+          "alt": "",
+          "caption": "",
+          "order": 190,
+          "width": 4333,
+          "height": 2889,
+          "src": "images/projects/project-muzozrji/ee769e6a6bc042ab809d4d4bdea52815/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/ee769e6a6bc042ab809d4d4bdea52815/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/ee769e6a6bc042ab809d4d4bdea52815/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/ee769e6a6bc042ab809d4d4bdea52815/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/ee769e6a6bc042ab809d4d4bdea52815/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/ee769e6a6bc042ab809d4d4bdea52815/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_08998.jpg",
+            "sha256": "cbf31d504bd13fe330e9a8f5755634a3b04e142e84ce8102832158c1e622a1e1"
+          }
+        },
+        {
+          "id": "photo-bc29f26ac4ca482697e005909981a933",
+          "alt": "",
+          "caption": "",
+          "order": 210,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/bc29f26ac4ca482697e005909981a933/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/bc29f26ac4ca482697e005909981a933/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/bc29f26ac4ca482697e005909981a933/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/bc29f26ac4ca482697e005909981a933/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/bc29f26ac4ca482697e005909981a933/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/bc29f26ac4ca482697e005909981a933/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_09183.jpg",
+            "sha256": "592285a0794087649d1a6cc7d65ac019e8cba2115f52d9d62de9c958a02d68f7"
+          }
+        },
+        {
+          "id": "photo-1cfdc52deb6e4b21af82fc83f015f775",
+          "alt": "",
+          "caption": "",
+          "order": 230,
+          "width": 4177,
+          "height": 2785,
+          "src": "images/projects/project-muzozrji/1cfdc52deb6e4b21af82fc83f015f775/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/1cfdc52deb6e4b21af82fc83f015f775/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/1cfdc52deb6e4b21af82fc83f015f775/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/1cfdc52deb6e4b21af82fc83f015f775/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/1cfdc52deb6e4b21af82fc83f015f775/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/1cfdc52deb6e4b21af82fc83f015f775/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_09226.jpg",
+            "sha256": "9f3e5c8298147de33af0a1600cc43496b40ba4fea75579d26abe465b74c500d0"
+          }
+        },
+        {
+          "id": "photo-b18d9cfe6b804892938128a32b5c4135",
+          "alt": "",
+          "caption": "",
+          "order": 240,
+          "width": 4176,
+          "height": 2784,
+          "src": "images/projects/project-muzozrji/b18d9cfe6b804892938128a32b5c4135/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/b18d9cfe6b804892938128a32b5c4135/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/b18d9cfe6b804892938128a32b5c4135/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/b18d9cfe6b804892938128a32b5c4135/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/b18d9cfe6b804892938128a32b5c4135/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/b18d9cfe6b804892938128a32b5c4135/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_09361.jpg",
+            "sha256": "1ee8a4ee718b77ffad82a49a1d53d442cbe8f46c9ad4cbb241fd3a61f4bc7321"
+          }
+        },
+        {
+          "id": "photo-28b870b2e4124eb8963c2eef4cfd2fed",
+          "alt": "",
+          "caption": "",
+          "order": 20,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/28b870b2e4124eb8963c2eef4cfd2fed/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/28b870b2e4124eb8963c2eef4cfd2fed/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/28b870b2e4124eb8963c2eef4cfd2fed/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/28b870b2e4124eb8963c2eef4cfd2fed/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/28b870b2e4124eb8963c2eef4cfd2fed/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/28b870b2e4124eb8963c2eef4cfd2fed/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_09512.jpg",
+            "sha256": "3f544a60c822a1f3f3f91f572c142028b4c15447b7be2646457612891bf13554"
+          }
+        },
+        {
+          "id": "photo-64f9d0dc590940e48076dc0f26a72dc7",
+          "alt": "",
+          "caption": "",
+          "order": 10,
+          "width": 4420,
+          "height": 2947,
+          "src": "images/projects/project-muzozrji/64f9d0dc590940e48076dc0f26a72dc7/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/64f9d0dc590940e48076dc0f26a72dc7/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/64f9d0dc590940e48076dc0f26a72dc7/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/64f9d0dc590940e48076dc0f26a72dc7/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/64f9d0dc590940e48076dc0f26a72dc7/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/64f9d0dc590940e48076dc0f26a72dc7/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_09563.jpg",
+            "sha256": "5419bd48d36c0c06be531b0048a96fc0d2512a45b8bcb17d9d25af79e788c758"
+          }
+        },
+        {
+          "id": "photo-71449faf3e744a1a8a553b0a808fbe23",
+          "alt": "",
+          "caption": "",
+          "order": 250,
+          "width": 4148,
+          "height": 2765,
+          "src": "images/projects/project-muzozrji/71449faf3e744a1a8a553b0a808fbe23/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/71449faf3e744a1a8a553b0a808fbe23/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/71449faf3e744a1a8a553b0a808fbe23/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/71449faf3e744a1a8a553b0a808fbe23/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/71449faf3e744a1a8a553b0a808fbe23/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/71449faf3e744a1a8a553b0a808fbe23/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C1_09663.jpg",
+            "sha256": "78c5c48d5d957251e4f9fac67d02dd255d7ff89953d369cd67bc75ded3c48012"
+          }
+        },
+        {
+          "id": "photo-10d49a5e45a14681b3f78c3341c2de05",
+          "alt": "",
+          "caption": "",
+          "order": 260,
+          "width": 4270,
+          "height": 2847,
+          "src": "images/projects/project-muzozrji/10d49a5e45a14681b3f78c3341c2de05/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/10d49a5e45a14681b3f78c3341c2de05/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/10d49a5e45a14681b3f78c3341c2de05/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/10d49a5e45a14681b3f78c3341c2de05/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/10d49a5e45a14681b3f78c3341c2de05/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/10d49a5e45a14681b3f78c3341c2de05/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C2_07670.jpg",
+            "sha256": "8cb4d9f0ddeada26d31e26202417e55c8c18beae453e8053c1457b49771b3b7c"
+          }
+        },
+        {
+          "id": "photo-3a94c9171e1d41dc9f52c6d3d3531b7d",
+          "alt": "",
+          "caption": "",
+          "order": 60,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/3a94c9171e1d41dc9f52c6d3d3531b7d/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/3a94c9171e1d41dc9f52c6d3d3531b7d/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/3a94c9171e1d41dc9f52c6d3d3531b7d/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/3a94c9171e1d41dc9f52c6d3d3531b7d/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/3a94c9171e1d41dc9f52c6d3d3531b7d/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/3a94c9171e1d41dc9f52c6d3d3531b7d/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C2_07923.jpg",
+            "sha256": "22dbebceb8d6d2cbe6674bf5a86ca57a560e9279cb25a17cbaeb68e080cd4ce6"
+          }
+        },
+        {
+          "id": "photo-3cdfdcf188b748878f2d5f718406fcf4",
+          "alt": "",
+          "caption": "",
+          "order": 70,
+          "width": 3742,
+          "height": 2495,
+          "src": "images/projects/project-muzozrji/3cdfdcf188b748878f2d5f718406fcf4/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/3cdfdcf188b748878f2d5f718406fcf4/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/3cdfdcf188b748878f2d5f718406fcf4/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/3cdfdcf188b748878f2d5f718406fcf4/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/3cdfdcf188b748878f2d5f718406fcf4/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/3cdfdcf188b748878f2d5f718406fcf4/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C2_07972.jpg",
+            "sha256": "d942707ee6a3a8c00f6094e6ccfb9cfdfb8112460cca6cc1de4f01e9a3699985"
+          }
+        },
+        {
+          "id": "photo-27f0d92edd9d445db69c0a68bd28f8dc",
+          "alt": "",
+          "caption": "",
+          "order": 50,
+          "width": 4608,
+          "height": 3072,
+          "src": "images/projects/project-muzozrji/27f0d92edd9d445db69c0a68bd28f8dc/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/27f0d92edd9d445db69c0a68bd28f8dc/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/27f0d92edd9d445db69c0a68bd28f8dc/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/27f0d92edd9d445db69c0a68bd28f8dc/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/27f0d92edd9d445db69c0a68bd28f8dc/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/27f0d92edd9d445db69c0a68bd28f8dc/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C2_07996.jpg",
+            "sha256": "9c4a2965d530676b29485999f8c2015e96785c7be0dc5121a636edf4630ee03b"
+          }
+        },
+        {
+          "id": "photo-9a7b4dccf22d4170a915e9e02a02e700",
+          "alt": "",
+          "caption": "",
+          "order": 270,
+          "width": 3874,
+          "height": 2583,
+          "src": "images/projects/project-muzozrji/9a7b4dccf22d4170a915e9e02a02e700/photo-preview.webp",
+          "thumbnail": "images/projects/project-muzozrji/9a7b4dccf22d4170a915e9e02a02e700/photo-thumb.webp",
+          "full": "images/projects/project-muzozrji/9a7b4dccf22d4170a915e9e02a02e700/photo-full.webp",
+          "sources": [
+            {
+              "src": "images/projects/project-muzozrji/9a7b4dccf22d4170a915e9e02a02e700/photo-thumb.webp",
+              "width": 640
+            },
+            {
+              "src": "images/projects/project-muzozrji/9a7b4dccf22d4170a915e9e02a02e700/photo-preview.webp",
+              "width": 1600
+            },
+            {
+              "src": "images/projects/project-muzozrji/9a7b4dccf22d4170a915e9e02a02e700/photo-full.webp",
+              "width": 2800
+            }
+          ],
+          "source": {
+            "filename": "C2_08072.jpg",
+            "sha256": "3ec4edaa0b8b5a4ece54342467fc00344b94526d1b4464ce154a520fa065df36"
           }
         }
       ]
